@@ -1,5 +1,7 @@
 # Webmaker mailroom
 
+This module outputs **rendered/localized html** for Webmaker emails given a template name, some arbitrary data, and a locale.
+
 ## Install
 ```
 npm install webmaker-mailroom
@@ -8,7 +10,16 @@ npm install webmaker-mailroom
 ## Usage
 ```
 var mailroom = require('webmaker-mailroom');
-var html = mailroom.render('badge_awarded', data, locale);
+
+// Configure
+var templateName = 'badge_awarded';
+var data = {
+  name: 'Kate Hudson',
+  faveTeam: 'DFB'
+};
+var locale = 'en-US';
+
+var html = mailroom.render(templateName, data, locale);
 // Do something with html
 ```
 ## List of available templates
