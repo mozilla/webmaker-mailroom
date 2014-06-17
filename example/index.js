@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 
 var mailer = require('../index.js')();
+var mockData = require('../test/mock-data.js');
 var app = express();
 
 app.get('/', function (req, res) {
@@ -9,7 +10,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:template', function (req, res) {
-  var html = mailer.render(req.params.template, {});
+  var tests = mockData[req.params.template];
+  var separator = '\n<hr>\n';
+  var html = tests.map(function (data) {
+    return mailer.render(req.params.template, data);
+  }).join(separator);
   res.send(html);
 });
 
