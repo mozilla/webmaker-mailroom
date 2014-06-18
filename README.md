@@ -19,8 +19,10 @@ var data = {
 };
 var locale = 'en-US';
 
-var html = mailroom.render(templateName, data, locale);
-// Do something with html
+var email = mailroom.render(templateName, data, locale);
+// Output
+// email.html: The html of the email body
+// email.subject: The subject of the html
 ```
 ## List of available templates
 
@@ -66,8 +68,9 @@ Then visit http://localhost:1967/<template name> in your browser.
 1. If your email event is called "Awesome Event", create an html file in `templates/` called `awesome_event.html`
 2. Refer to the [nunjucks templating docs](http://mozilla.github.io/nunjucks/templating.html) for how to add templated data.
 3. Add strings to `locale/en_US/strings.json`. In the template, you should use the syntax `{{ 'key-name' | gettext }}`
-4. Add some test data to `test/mock-data.js`. You should format your test data as an array of test data sets, commenting each one if necessary.
-5. Manually test your template by running `npm example`. If your html file was `templates/awesome_event.html`, you would navigate to `http://localhost:1967/awesome_event` in your browser.
-6. Add automatic tests for your template to `test/test.js` and run `npm test`.
-7. Update the 'List of available templates' section in `README.md`  with the event name and data model.
+4. Add a subject to `locale/en_US/strings.json`. The key should be `subject_<template name>`.
+5. Add some test data to `test/mock-data.js`. You should format your test data as an array of test data sets, commenting each one if necessary.
+6. Manually test your template by running `npm example`. If your html file was `templates/awesome_event.html`, you would navigate to `http://localhost:1967/awesome_event` in your browser.
+7. Add automatic tests for your template to `test/test.js` and run `npm test`.
+8. Update the 'List of available templates' section in `README.md`  with the event name and data model.
 

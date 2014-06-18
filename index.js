@@ -39,12 +39,17 @@ module.exports = function (options) {
     render: function (template, data, locale) {
       var locals = data || {};
       var html;
+      var subject;
       locale = isLanguageSupported(locale) ? locale : DEFAULT_LANG;
       locals.gettext = gettext(locale);
       locals.locale = locale;
       try {
         html = nunjucks.render(template + '.html', data);
-        return html;
+        subject = nunjucks.renderString(locals.gettext('subject_' + template), data);
+        return {
+          html: html,
+          subject: subject
+        };
       } catch (err) {
         return;
       }
