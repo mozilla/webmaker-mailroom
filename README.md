@@ -1,4 +1,4 @@
-€# Webmaker mailroom
+# Webmaker mailroom
 
 This module outputs **rendered/localized html** for Webmaker emails given a template name, some arbitrary data, and a locale.
 
@@ -39,11 +39,11 @@ Data model:
 ```js
 {
   username: "Can be the event mentor's username or undefined if the email is not associated with a username",
-  "eventUrl": "The url of the event page",
-  "eventName": "The name of the event",
-  "confirmUrlYes": "The tokenized landing page url for a positive confirmation",
-  "confirmUrlNo": "The tokenized landing page url for a negative confirmation",
-  "organizerUsername": "The username of the event organizer"
+  eventUrl: "The url of the event page",
+  eventName: "The name of the event",
+  confirmUrlYes: "The tokenized landing page url for a positive confirmation",
+  confirmUrlNo: "The tokenized landing page url for a negative confirmation",
+  organizerUsername: "The username of the event organizer"
 }
 ```
 
