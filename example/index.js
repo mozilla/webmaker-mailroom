@@ -22,4 +22,6 @@ app.get('/:template', function (req, res) {
   res.send(html);
 });
 
-app.listen(1967);
+app.listen(1967, function () {
+  console.log('Server listening at http://localhost:1967');  
+});
