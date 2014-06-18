@@ -2,6 +2,8 @@
 
 This module outputs **rendered/localized html** for Webmaker emails given a template name, some arbitrary data, and a locale.
 
+![jbuck the mailman](jbuckmail.png)
+
 ## Install
 ```
 npm install webmaker-mailroom
