@@ -49,6 +49,17 @@ Data model:
 }
 ```
 
+### `event_coorganizer_added`
+Data model:
+```js
+{
+  username: "Co-organizer's email",
+  eventName: "The title of the event",
+  eventUrl: "The url of the event page",
+  eventEditUrl: "The url at which the event can be edited"
+}
+```
+
 ### `hive_badge_awarded`
 Data model:
 
