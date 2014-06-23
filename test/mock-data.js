@@ -10,7 +10,8 @@ module.exports = {
       eventUrl: "https://events.webmaker.org/#!/events/3452",
       confirmUrlYes: "https://events.webmaker.org/confirm/somerandomtoken&confirmation=yes",
       confirmUrlNo: "https://events.webmaker.org/confirm/somerandomtoken&confirmation=no",
-      organizerUsername: "k88hudson"
+      organizerUsername: "k88hudson",
+      comments: "Great job!!"
     },
     // This is if the user does not exist
     {
