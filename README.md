@@ -71,6 +71,17 @@ If a user/username exists:
 }
 ```
 
+### `badge_application_denied`
+
+Data model:
+
+```js
+{
+  badgeName: 'Name of the badge',
+  badgeUrl: 'Full url of the badge',
+  comment: 'Comments from the badge application'
+}
+
 ## Tests
 
 ### Automatic (with mocha)

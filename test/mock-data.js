@@ -33,5 +33,10 @@ module.exports = {
       badgeUrl: "https://webmaker.org/badges/hive-community-member",
       signUpUrl: "https://webmaker.org"
     }
-  ]
+  ],
+  badge_application_denied: [{
+    badgeName: 'Hive Community Member',
+    badgeUrl: 'https://webmaker.org/badges/hive-community-member',
+    comment: 'You need more work'
+  }]
 };

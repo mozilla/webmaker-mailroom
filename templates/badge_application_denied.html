@@ -1,0 +1,23 @@
+{% extends "base/layout.html" %}
+{% block body %}
+<p>Hi there!</p>
+
+<p>Thanks for applying for the <a href="{{ badgeUrl }}">{{ badgeName }}</a> badge. Unfortunately, your application has not been approved at this time.</p>
+
+<p>Here's some feedback from the Webmaker community member who reviewed your application:</p>
+
+<blockquote>{{ comment }}</blockquote>
+
+<p>Hope that's helpful! Please review the feedback and <a href="{{ badgeUrl }}">apply</a> for the badge again anytime you're ready.</p>
+
+<p>Best wishes and happy webmaking,</p>
+
+<p>Michelle Thorne,
+<br>Global Strategist
+<br>Mozilla Webmaker</p>
+{% endblock %}
+
+
+
+
+

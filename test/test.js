@@ -29,6 +29,12 @@ describe('webmaker-mailroom', function() {
       assert(output2.subject);
     });
 
+    it('should render "badge_application_denied"', function() {
+      var output = mailer.render('badge_application_denied', data.badge_application_denied[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
   });
 
 });

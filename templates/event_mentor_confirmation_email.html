@@ -1,3 +1,5 @@
+{% extends "base/layout.html" %}
+{% block body %}
 <p>Hi {{ username if username else "there" }},</p>
 
 <p>You've been selected by {{ organizerUsername }} to be a mentor at an upcoming event called <a href="{{ eventUrl }}">{{ eventName }}</a>.</p>
@@ -20,3 +22,4 @@ Amira
 
 Amira Dhalla,
 Webmaker Events Co-ordinator
+{% endblock %}
