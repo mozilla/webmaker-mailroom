@@ -1,20 +1,20 @@
 {% extends "base/layout.html" %}
 {% block body %}
-<p>Hi there!</p>
+<p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
 
-<p>Thanks for applying for the <a href="{{ badgeUrl }}">{{ badgeName }}</a> badge. Unfortunately, your application has not been approved at this time.</p>
+<p>{{ 'b_a_d_1' | gettext | instantiate | safe }}</p>
 
-<p>Here's some feedback from the Webmaker community member who reviewed your application:</p>
+<p>{{ "Here's some feedback from the Webmaker community member who reviewed your application:" | gettext }}</p>
 
 <blockquote>{{ comment }}</blockquote>
 
-<p>Hope that's helpful! Please review the feedback and <a href="{{ badgeUrl }}">apply</a> for the badge again anytime you're ready.</p>
+<p>{{ 'b_a_d_2' | gettext | instantiate | safe }}</p>
 
-<p>Best wishes and happy webmaking,</p>
+<p>{{ 'Best wishes and happy webmaking,' | gettext }}</p>
 
 <p>Michelle Thorne,
-<br>Global Strategist
-<br>Mozilla Webmaker</p>
+<br>{{ 'Global Strategist' | gettext }}
+<br>{{ 'Mozilla Webmaker' | gettext }}</p>
 {% endblock %}
 
 
