@@ -35,6 +35,12 @@ describe('webmaker-mailroom', function() {
       assert(output.subject);
     });
 
+    it('should render "event_coorganizer_added"', function() {
+      var output = mailer.render('event_coorganizer_added', data.event_coorganizer_added[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
   });
 
 });

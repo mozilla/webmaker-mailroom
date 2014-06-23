@@ -21,6 +21,12 @@ module.exports = {
       organizerUsername: "k88hudson"
     }
   ],
+  event_coorganizer_added: [{
+    username: "cade",
+    eventName: "Super Event",
+    eventUrl: "https://events.mofostaging.net/#!/events/8",
+    eventEditUrl: "https://events.mofostaging.net/#!/edit/8"
+  }],
   hive_badge_awarded: [
     {
       username: "k88hudson",
