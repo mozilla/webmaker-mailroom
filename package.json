@@ -16,6 +16,7 @@
     "webmaker-i18n": "0.3.21"
   },
   "devDependencies": {
-    "express": "^4.4.1"
+    "express": "^4.4.1",
+    "mocha": "^1.20.1"
   }
 }
