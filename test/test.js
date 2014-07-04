@@ -41,6 +41,12 @@ describe('webmaker-mailroom', function() {
       assert(output.subject);
     });
 
+    it('should render "event_created"', function() {
+      var output = mailer.render('event_created', data.event_created[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
   });
 
 });

@@ -122,5 +122,29 @@ Data model:
   badgeUrl: 'Full url of the badge',
   comment: 'Comments from the badge application'
 }
+
+### `event_created`
+
+Data model:
+
+```js
+{
+  username: 'Webmaker username (optional)'
+}
+```
+
+## Tests
+
+### Automatic (with mocha)
+
+```
+npm install
+npm test
+```
+### Manual tests
+
+```
+npm install
+node example
 ```
 
