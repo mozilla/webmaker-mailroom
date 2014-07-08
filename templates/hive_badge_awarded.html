@@ -6,7 +6,12 @@
 <blockquote>{{ comment }}</blockquote>
 {% endif %}
 
-<p>You can display, view and share this badge on your <a href="http://webmaker.org">http://webmaker.org</a> profile page. Note that you'll need to create a Webmaker account if you don't already have one.</p>
+{% if username %}
+<p>You can display, view and share this badge on your <a href="{{ profileUrl }}">profile page</a>.</p>
+{% else %}
+<p>You can display, view and share this badge on your <a href="https://webmaker.org">https://webmaker.org</a> profile page. Note that you'll need to <a href="{{ signUpUrl }}">create a Webmaker account</a> if you don't already have one.</p>
+{% endif %}
+
 
 <h3>Why is this badge important? This and future Hive badges will help us to...</h3>
 
@@ -24,7 +29,7 @@
 
 <h3>What's next?</h3>
 
-<p>Spread the word about this badge to your peers in your local Hive network, or collaborators that you feel have made a contribution to Hive <i>even if they have not been recognized through the Hive before!</i> Our badges help us to define our community and our community will help us to define our badges.</p>
+<p>Spread the word about this badge to your peers in your local Hive network, or collaborators that you feel have made a contribution to Hive <em>even if they have not been recognized through the Hive before!</em> Our badges help us to define our community and our community will help us to define our badges.</p>
 
 <p>Learn more about <a href="https://wiki.mozilla.org/Webmaker/Hive/Hive_Community_Member_Badges">this and future badges</a> or about <a href="http://hivelearningnetworks.org">Hive Learning Networks</a> around the globe.</p>
 
