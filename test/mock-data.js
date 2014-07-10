@@ -44,5 +44,8 @@ module.exports = {
     badgeName: 'Hive Community Member',
     badgeUrl: 'https://webmaker.org/badges/hive-community-member',
     comment: 'You need more work'
+  }],
+  event_created: [{
+    username: 'k88hudson'
   }]
 };
