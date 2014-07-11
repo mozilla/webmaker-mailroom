@@ -5,6 +5,7 @@
   "subject_hive_badge_awarded": "Congratulations Hive Community Member!",
   "subject_badge_application_denied": "Your badge application",
   "subject_event_created": "Tips for your Webmaker event",
+  "subject_remind_user_about_event": "Event reminder {{ eventDate }}",
   "hi_username_or_there": "Hi {{ username if username else \"there\" }},",
   "Here's some feedback from the Webmaker community member who reviewed your application:": "Here's some feedback from the Webmaker community member who reviewed your application:",
   "Global Strategist": "Global Strategist",
@@ -26,5 +27,8 @@
   "e_c_1": "I'm excited to hear you're throwing an event! To help you make it great, we've compiled some tips and tricks in our <a href=\"https://party.webmaker.org/resources\">resources section</a>. You can learn how to organize your event, find teaching resources, get press coverage, work with local partners, gather feedback, and more. You can also order Webmaker gear like lanyards and stickers to hand out to your participants.",
   "e_c_2": "Remember to document everything with photos, videos, quotes and whatever else might be helpful. Share the details of your party on Twitter, Facebook and Flickr with the #makerparty hashtag. We will be watching.",
   "e_c_3": "If you have any questions, don't hesitate to contact me. I'm here to help!",
+  "r_u_a_e_1": "This is a reminder that you have an upcoming event.",
+  "r_u_a_e_2": "Hosted by:",
+  "r_u_a_e_3": "Enjoy your event!",
   "test": "test"
 }

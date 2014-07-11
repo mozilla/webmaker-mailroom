@@ -47,6 +47,12 @@ describe('webmaker-mailroom', function() {
       assert(output.subject);
     });
 
+    it('should render "remind_user_about_event"', function() {
+      var output = mailer.render('remind_user_about_event', data.remind_user_about_event[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
   });
 
 });
