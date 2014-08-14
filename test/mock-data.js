@@ -70,4 +70,8 @@ module.exports = {
     locale: 'en-US',
     username: 'jon'
   }],
+  login_request: [{
+    token: 'asdf123',
+    username: 'cade'
+  }]
 };

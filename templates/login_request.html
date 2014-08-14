@@ -1,0 +1,19 @@
+{% extends "base/layout.html" %}
+{% block body %}
+<p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
+
+<p>We have recieved a login request for your Webmaker account. If you did not make this request, you can disregard this email.</p>
+<p>Your single use login key is:
+  <br />
+  </br />
+  {{ token }}
+  <br />
+  <br />
+  It will expire in thirty minutes.
+</p>
+<p>You can log in by clicking this link: <a href=\"{{loginUrl}}\"> Log In Now</a></p>
+
+<p>{{ 'Cheers,' | gettext }}
+<br>Amira
+<br>{{ 'Webmaker Community Manager' | gettext }}</p>
+{% endblock %}

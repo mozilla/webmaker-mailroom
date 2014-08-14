@@ -65,6 +65,12 @@ describe('webmaker-mailroom', function() {
       assert(output.subject);
     });
 
+    it('should render "login_request"', function() {
+      var output = mailer.render('login_request', data.user_created[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
   });
 
 });
