@@ -53,6 +53,12 @@ describe('webmaker-mailroom', function() {
       assert(output.subject);
     });
 
+    it('should render "notify_mofo_staff_new_event"', function() {
+      var output = mailer.render('notify_mofo_staff_new_event', data.notify_mofo_staff_new_event[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
   });
 
 });

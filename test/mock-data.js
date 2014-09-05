@@ -60,5 +60,10 @@ module.exports = {
     eventURL: 'https://events.webmaker.org/#!/events/3834',
     organizerEmail: null,
     organizerUsername: 'jbuck'
+  }],
+  notify_mofo_staff_new_event: [{
+    email: 'jon@jbuckley.ca',
+    username: 'jon',
+    eventId: 1
   }]
 };
