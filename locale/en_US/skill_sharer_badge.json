@@ -1,0 +1,14 @@
+{
+  "subject_skill_sharer_badge_awarded": {
+    "message": "Congratulations, you got a Webmaker badge!",
+    "description": "Subject for skill sharer awarded badge"
+  },
+  "skillSharerBadge1": {
+    "message": "Congratulations! You’ve earned the <a href=\"{{ webmakerURL }}/badges/{{ badge.slug }}\">{{ badge.name }}</a> badge, which recognizes you for sharing elements of your web literacy skills with someone else. ",
+    "description": "Skill Sharer badge email"
+  },
+  "skillSharerTweetContents": {
+    "message": "I just got a badge because I #TeachTheWeb. Join me and share what you know about the web with others",
+    "description": "Skill Sharer badge email"
+  }
+}

@@ -70,4 +70,45 @@ module.exports = {
     locale: 'en-US',
     username: 'jon'
   }],
+  badge_awarded: [{
+    locale: 'en-US',
+    username: 'cade',
+    webmakerURL: "https://webmaker.org",
+    badge: {
+      slug: "super-mega-awesome-badge",
+      name: "Super Mega Awesome Badge"
+    }
+  }],
+  event_host_badge_awarded: [{
+    locale: 'en-US',
+    username: 'cade',
+    webmakerURL: "https://webmaker.org",
+    badge: {
+      slug: "event-host",
+      name: "Event Host"
+    }
+  }],
+  teaching_kit_badge_awarded: [{
+    locale: 'en-US',
+    username: 'cade',
+    webmakerURL: "https://webmaker.org",
+    badge: {
+      slug: "teaching-kit-remixer",
+      name: "Teaching Kit Remixer"
+    }
+  }],
+  skill_sharer_badge_awarded: [{
+    locale: 'en-US',
+    username: 'cade',
+    webmakerURL: "https://webmaker.org",
+    badge: {
+      slug: "skill-sharer",
+      name: "Skill Sharer"
+    }
+  }],
+  super_mentor_badge_awarded: [{
+    locale: 'en-US',
+    username: 'cade',
+    webmakerURL: "https://webmaker.org"
+  }]
 };

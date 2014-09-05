@@ -1,0 +1,31 @@
+{% extends "base/layout.html" %}
+{% block body %}
+<p>{{ 'badgeAwardedSuperMentorP1' | gettext | instantiate | safe }}</p>
+
+{% if username %}
+<p>{{ 'badgesViewBadge' | gettext | instantiate | safe }}</p>
+{% else %}
+<p>{{ 'badgesSignUp' | gettext | instantiate | safe }}</p>
+{% endif %}
+
+<p>{{ 'badgeAwardedSuperMentorP2' | gettext }}</p>
+<p>{{ 'badgeAwardedSuperMentorP3' | gettext }}</p>
+
+<ul>
+  <li>{{ 'badgeAwardedSuperMentorP4' | gettext | safe}}</li>
+  <li>{{ 'badgeAwardedSuperMentorP5' | gettext | safe}}</li>
+  <li>{{ 'badgeAwardedSuperMentorP6' | gettext | safe}}</li>
+</ul>
+
+{{ 'badgeAwardedSuperMentorP7' | gettext | safe }}
+
+<p>{{ 'badgeAwardedSuperMentorP8' | gettext }}</p>
+
+<p>{{ 'badgeAwardedSuperMentorP9' | gettext }}</p>
+
+<p>{{ 'badgeAwardedSuperMentorSalulation' | gettext}}</p>
+
+<p><strong>Michelle Thorne</strong>
+<br>Director of Community Strategy
+<br>Mozilla Webmaker</p>
+{% endblock %}

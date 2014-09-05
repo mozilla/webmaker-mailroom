@@ -1,0 +1,42 @@
+{
+  "badgesViewBadge": {
+    "message": "You can display, view and share this badge on your <a href=\"{{ webmakerURL }}/user/{{ username }}/badges\">profile page</a>.",
+    "description": "Link to badges page on profile"
+  },
+  "badgesSignUp": {
+    "message": "In order to claim your badge, you need to <strong>sign up for <a href=\"{{ signUpUrl }}\">Webmaker</a></strong> with this email ({{ email }}). If this is not the email you want to use with your Webmaker account, contact the person who gave you this badge or email help@webmaker.org to transfer your badge to a different account.",
+    "description": "Sign up to claim your badge"
+  },
+  "badgesYourComments": {
+    "message": "The mentor who awarded this badge had some comments for you:",
+    "description": "Badges email"
+  },
+  "badgesWhatsNext": {
+    "message": "What's next?",
+    "description": "Badges email"
+  },
+  "badgesSpreadTheWord": {
+    "message": "Spread the word to your peers.",
+    "description": "Badges email"
+  },
+  "badgesTweetThis": {
+    "message": "Tweet This",
+    "description": "Badges email"
+  },
+  "badgesHappyContributing": {
+    "message": "Happy Contributing,",
+    "description": "Badges email"
+  },
+  "badgesOtherBadges1": {
+    "message": "Check out some of our other brand spanking new badges",
+    "description": "Badges email"
+  },
+  "badgesOtherBadges2": {
+    "message": "and pave your path to becoming a <a href=\"{{ webmakerURL }}/badges/webmaker-mentor\">Mentor</a> in the Webmaker community.",
+    "description": "Badges email"
+  },
+  "badgesThanks": {
+    "message": "Here's to a continued future of making and learning the web together,",
+    "description": "Badges email"
+  }
+}

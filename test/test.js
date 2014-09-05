@@ -65,6 +65,35 @@ describe('webmaker-mailroom', function() {
       assert(output.subject);
     });
 
+    it('should render "badge_awarded"', function() {
+      var output = mailer.render('badge_awarded', data.badge_awarded[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
+    it('should render "event_host_badge_awarded"', function() {
+      var output = mailer.render('event_host_badge_awarded', data.event_host_badge_awarded[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
+    it('should render "teaching_kit_badge_awarded"', function() {
+      var output = mailer.render('teaching_kit_badge_awarded', data.teaching_kit_badge_awarded[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
+    it('should render "skill_sharer_badge_awarded"', function() {
+      var output = mailer.render('skill_sharer_badge_awarded', data.skill_sharer_badge_awarded[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
+
+    it('should render "super_mentor_badge_awarded"', function() {
+      var output = mailer.render('super_mentor_badge_awarded', data.super_mentor_badge_awarded[0]);
+      assert(output.html);
+      assert(output.subject);
+    });
   });
 
 });
