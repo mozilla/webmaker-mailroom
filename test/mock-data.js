@@ -65,5 +65,9 @@ module.exports = {
     email: 'jon@jbuckley.ca',
     username: 'jon',
     eventId: 1
-  }]
+  }],
+  user_created: [{
+    locale: 'en-US',
+    username: 'jon'
+  }],
 };

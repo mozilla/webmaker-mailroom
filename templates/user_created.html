@@ -1,0 +1,22 @@
+{% extends "base/layout.html" %}
+{% block body %}
+<p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
+
+<p>{{ 'p1WelcomeToMozillaWebmaker' | gettext }}</p>
+
+<p>{{ 'p2YouCanGetStartedRightNow' | gettext }}</p>
+
+<ul>
+  <li>{{ 'li1GogglesItem' | gettext | instantiate | safe }}</li>
+
+  <li>{{ 'li2ThimbleItem' | gettext | instantiate | safe }}</li>
+
+  <li>{{ 'li3PopcornItem' | gettext | instantiate | safe }}</li>
+</ul>
+
+<p>{{ 'lastParagraph' | gettext }}</p>
+
+<p>{{ 'cheersAmira' | gettext | safe }}</p>
+
+<p class="unsubscribe">{{ 'unsubscribe' | gettext | instantiate | safe }}</p>
+{% endblock %}
