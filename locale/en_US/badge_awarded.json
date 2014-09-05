@@ -1,0 +1,10 @@
+{
+  "subject_badge_awarded": {
+    "message": "Congratulations, you got a Webmaker badge!",
+    "description": "Subject for badge awarded email"
+  },
+  "badges1": {
+    "message": "Congratulations! You earned the <a href=\"{{ webmakerURL }}/badges/{{ badge.slug }}\">{{ badge.name }} badge</a>.",
+    "description": "Badges email"
+  }
+}

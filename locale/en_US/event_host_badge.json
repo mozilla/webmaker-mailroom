@@ -1,0 +1,14 @@
+{
+  "subject_event_host_badge_awarded": {
+    "message": "Congratulations, you got a Webmaker badge!",
+    "description": "Subject for the teaching kit badge awarded email"
+  },
+  "eventHostBadge1": {
+    "message": "High Five! You’ve earned the <a href=\"{{ webmakerURL }}/badges/{{ badge.slug }}\">{{ badge.name }}</a> badge, which recognizes your contributions to Maker Party and demonstrates that you have hosted an event to #TeachTheWeb.",
+    "description": "Event Host badge email"
+  },
+  "eventHostTweetContents": {
+    "message": "I just got a badge for hosting a #MakerParty event! Join us and host your own party to #TeachTheWeb.",
+    "description": "Event Host badge email"
+  }
+}

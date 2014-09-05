@@ -1,0 +1,42 @@
+{% extends "base/layout.html" %}
+{% block body %}
+<p>{{ 'eventHostBadge1' | gettext | instantiate | safe }}</p>
+
+{% if comment %}
+<p>{{ 'badgesYourComments' | gettext }}</p>
+<blockquote>{{ comment }}</blockquote>
+{% endif %}
+
+{% if username %}
+<p>{{ 'badgesViewBadge' | gettext | instantiate | safe }}</p>
+{% else %}
+<p>{{ 'badgesSignUp' | gettext | instantiate | safe }}</p>
+{% endif %}
+
+<h3>{{ 'badgesWhatsNext' | gettext }}</h3>
+
+<ol>
+  <li>
+    <p>{{ 'badgesSpreadTheWord' | gettext }}</p>
+    <textarea rows=2 cols=50 disabled>{{ 'eventHostTweetContents' | gettext }}</textarea>
+    <div style="display:inline-block;vertical-align:60%;margin-left:10px">
+      <a style="background-image: linear-gradient(#FFF, #DEDEDE); background-color: #EEE; color: #333; text-decoration:none; border:1px solid #CCC; padding:9px 12px 8px 12px; text-align: center; box-sizing:border-box; box-shadow:0px 1px 0px rgba(255, 255, 255, 0.1) inset; border-radius:4px; text-shadow:0px 1px 0px rgba(255, 255, 255, 0.5); cursor:pointer; font-size:13px; font-weight:bold; line-height:26px; " href="http://twitter.com/intent/tweet?text={{ 'eventHostTweetContents' | gettext | replace("#","%23") }}" target="_blank">
+        {{ 'badgesTweetThis' | gettext }}
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <p>{{ 'badgesOtherBadges1' | gettext }}</p>
+
+    <p><a href="https://webmaker.org/badges/skill-sharer">https://webmaker.org/badges/skill-sharer</a>
+    <br><a href="https://webmaker.org/badges/teaching-kit-remixer">https://webmaker.org/badges/teaching-kit-remixer</a></p>
+
+    <p>{{ 'badgesOtherBadges2' | gettext | instantiate | safe }}</p>
+  </li>
+</ol>
+
+<p>{{ 'badgesHappyContributing' | gettext }}</p>
+
+<p>The Webmaker Team</p>
+{% endblock %}

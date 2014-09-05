@@ -1,0 +1,14 @@
+{
+  "subject_teaching_kit_badge_awarded": {
+    "message": "Congratulations, you got a Webmaker badge!",
+    "description": "Subject for the teaching kit badge awarded email"
+  },
+  "teachingKitBadge1": {
+    "message": "Way to go Webmaker! You’ve created a teaching kit and earned the <a href=\"{{ webmakerURL }}/badges/{{ badge.slug }}\">{{ badge.name }}</a> badge. ",
+    "description": "Teaching Kit badge email"
+  },
+  "teachingKitTweetContents": {
+    "message": "I just got a badge for making a resource to #TeachTheWeb. Remix or create your own teaching resource with @webmaker",
+    "description": "Teaching Kit badge email"
+  }
+}

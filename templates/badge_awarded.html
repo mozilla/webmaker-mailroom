@@ -1,0 +1,21 @@
+{% extends "base/layout.html" %}
+{% block body %}
+<p>{{ 'badges1' | gettext | instantiate | safe }}</p>
+
+{% if username %}
+<p>{{ 'badgesViewBadge' | gettext | instantiate | safe }}</p>
+{% else %}
+<p>{{ 'badgesSignUp' | gettext | instantiate | safe }}</p>
+{% endif %}
+
+{% if comment %}
+<p>{{ 'badgesYourComments' | gettext }}</p>
+<p>{{ comment }}</p>
+{% endif %}
+
+<p>{{ 'badgesThanks' | gettext }}</p>
+
+<p><strong>Michelle Thorne</strong>
+<br>Director of Community Strategy
+<br>Mozilla Webmaker</p>
+{% endblock %}
