@@ -27,6 +27,16 @@ var email = mailroom.render(templateName, data, locale);
 // email.subject: The subject of the html
 ```
 
+## Development
+
+If you are developing a template, simply run:
+
+```
+gulp dev
+```
+
+This will start a watch process, build test files as you make changes, and run a server so you can view them in a browser.
+
 ## Tests
 
 ### Automatic (with mocha)
@@ -145,6 +155,6 @@ npm test
 
 ```
 npm install
-node example
+gulp serve
 ```
 

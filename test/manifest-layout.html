@@ -1,0 +1,12 @@
+{% extends "base/layout.html" %}
+
+{% block body %}
+
+<h1>Templates</h1>
+<ul>
+{% for template in templates %}
+  <li><a href="{{template}}.html">{{template}}</a></li>
+{% endfor %}
+</ul>
+
+{% endblock %}

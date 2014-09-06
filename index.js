@@ -20,7 +20,7 @@ module.exports = function (options) {
   };
 
   // Configure nunjucks
-  var env = nunjucks.configure(path.resolve(__dirname, 'templates'), { autoescape: true });
+  var env = nunjucks.configure(__dirname, { autoescape: true });
   env.addFilter('instantiate', function (input) {
     return nunjucks.renderString(input, this.getVariables());
   });
@@ -44,13 +44,14 @@ module.exports = function (options) {
       locals.gettext = gettext(locale);
       locals.locale = locale;
       try {
-        html = nunjucks.render(template + '.html', data);
+        html = nunjucks.render('templates/' + template + '.html', data);
         subject = nunjucks.renderString(locals.gettext('subject_' + template), data);
         return {
           html: html,
           subject: subject
         };
       } catch (err) {
+        console.log(err);
         return;
       }
     }
