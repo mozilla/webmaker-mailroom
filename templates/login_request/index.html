@@ -1,51 +1,52 @@
-<body bgcolor="#e3eaee" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-  <table width="100%" border="0" cellspacing="40" cellpadding="0">
-    <tr>
-      <td valign="top" bgcolor="#e3eaee">
-        <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="font-style:normal;font-variant:normal;font-weight:normal;font-size:14px;font-family:Helvetica Neue, Helvetica, sans-serif;line-height:100%;color:#404040;" >
-          <tr>
-            <td valign="top" bgcolor="#ffffff" style="margin-top: 30px;margin-bottom:30px;">
-              <table width="100%" border="0" cellpadding="10" cellspacing="0">
-                <tr>
-                  <td valign="top">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top:0px;padding-right:0px;padding-bottom:15px;padding-left:0px;">
-                      <tr>
-                        <td style="text-align:center; padding-bottom: 5px;">
-                          <img style="width: 220px;" src="https://dl.dropboxusercontent.com/u/43783651/logo%402x.png" alt="{{ 'webmaker_alt_text' | gettext }}">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:18px;color:#797e85;padding-bottom:20px;text-align:center;">{{ 'about_webmaker_login' | gettext }}
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="padding-top: 20px; padding-bottom: 10px; float: left; margin-left: 150px;">
-                        <a href="{{loginUrl}}" style="background-color: #3FB58E; border: 1px solid #38A27F; padding: 14px 25px 14px 25px; color: #FFFFFF; font-size: 16px; text-decoration: none;">{{ 'sign_in' | gettext }}</a>
-                        </td>
-                        <td style="float: left; margin: 21px 0px 0px 18px;">
-                          <a href="{{loginUrl}}&validFor=one-year" style="color: #27AAE1; font-size: 14px; text-decoration: none;">{{ 'sign_in_and_remember' | gettext }}</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:18px;color:#797e85;padding-bottom:15px;text-align:center; padding: 30px 0 0 0;">{{ 'copy_key' | gettext }}<span style="background-color: #fff2cc; padding: 7px 5px 5px 5px; font-family: Courier; margin-left: 5px; font-size: 13px;">{{ token }}</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="padding-top: 20px;">
-                          <hr style="display: block; height: 1px; border: 0; border-top: 1px solid #E3EAEE; padding: 0;">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td style="font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size:12px;line-height:18px;color:#797e85;padding:15px 0 0 10px;text-align:left;">{{ 'key_expiry_message' | gettext }} <br> {{ 'questions' | gettext | safe }}</td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-<body>
+{% block bodystyle %} bgcolor="#e3eaee" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" {% endblock %}
+{% block body %}
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" bgcolor="#e3eaee">
+      <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 30px; font-style:normal;font-variant:normal;font-weight:normal;font-size:14px;font-family:Helvetica Neue, Helvetica, sans-serif;line-height:100%;color:#404040;" >
+        <tr>
+          <td valign="top" bgcolor="#ffffff" style="margin-top: 30px;margin-bottom:30px;">
+            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+              <tr>
+                <td valign="top">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top:0px;padding-right:0px;padding-bottom:15px;padding-left:0px;">
+                    <tr>
+                      <td style="text-align:center; padding-bottom: 5px;">
+                        <img style="width: 220px;" src="https://dl.dropboxusercontent.com/u/43783651/logo%402x.png" alt="Mozilla Webmaker Logo">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:18px;color:#797e85;padding-bottom:20px;text-align:center;">At Webmaker, we’re tired of forgotten and weak passwords, so we made this new experience. If you prefer, you can set a password from your profile page.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top: 20px; padding-bottom: 10px; float: left; margin-left: 150px;">
+                      <a href="{{loginUrl}}&validFor=session" style="background-color: #3FB58E; border: 1px solid #38A27F; padding: 14px 25px 14px 25px; color: #FFFFFF; font-size: 16px; text-decoration: none;">Sign in now</a>
+                      </td>
+                      <td style="float: left; margin: 21px 0px 0px 18px;">
+                        <a href="{{loginUrl}}&validFor=one-year" style="color: #27AAE1; font-size: 14px; text-decoration: none;">Sign in for one year</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size:14px;line-height:18px;color:#797e85;padding-bottom:15px;text-align:center; padding: 30px 0 0 0;">Or, copy this temporary key into Webmaker: <span style="background-color: #fff2cc; padding: 7px 5px 5px 5px; font-family: Courier; margin-left: 5px; font-size: 13px;">{{ token }}</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding-top: 20px;">
+                        <hr style="display: block; height: 1px; border: 0; border-top: 1px solid #E3EAEE; padding: 0;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size:12px;line-height:18px;color:#797e85;padding:15px 0 0 10px;text-align:left;">This link will stop working in 30 minutes. If you didn’t try to log in, you can ignore this message. <br> Questions? <a href="https://support.mozilla.org/en-US/products/webmaker" style="color: #27AAE1; text-decoration: none;">Ask our helpful community</a> of Mentors and Webmakers like you.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+{% endblock %}
