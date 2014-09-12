@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body, h1, h2, h3, p, li, blockquote {
+        font: 14px/16px "Helvetica Neue", sans-serif;
+      }
+
+      .unsubscribe {
+        font-size: 10px;
+        line-height: 12px;
+      }
+    </style>
+  </head>
+  <body {% block bodystyle %}{% endblock %} >
+  {% block body %}{% endblock %}
+  </body>
+</html>
