@@ -6,7 +6,7 @@ module.exports = {
     {
       description: 'cade has requested a login token',
       data: {
-        token: 'asdf123',
+        token: 'kakav-nufuk',
         username: 'cade'
       }
     }

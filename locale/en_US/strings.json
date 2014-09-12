@@ -5,6 +5,7 @@
   "Congratulations Hive Community Member!": "Congratulations Hive Community Member!",
   "Your badge application": "Your badge application",
   "Webmaker Login Request": "Webmaker Login Request",
+  "Webmaker Account Confirmation": "Webmaker Account Confirmation",
   "hi_username_or_there": "Hi {{ username if username else \"there\" }},",
   "Here's some feedback from the Webmaker community member who reviewed your application:": "Here's some feedback from the Webmaker community member who reviewed your application:",
   "Global Strategist": "Global Strategist",
@@ -23,5 +24,9 @@
   "e_m_c_4": "To decline, <a href=\"{{ confirmUrlNo }}\">click here</a>. (You may also want to let the organizer know you won't be coming.)",
   "e_c_a_1": "You've been selected to be a co-organizer at an upcoming event called <a href=\"{{ eventUrl }}\">{{ eventName }}</a>. That means you will be able to edit the event by updating the description, adding mentors, and more.",
   "e_c_a_2": "To edit this event, <a href=\"{{ eventEditUrl }}\">click here</a>. You can also remove yourself as a coorganizer if you'd like.",
-  "test": "test"
+  "test": "test",
+  "questions": {
+    "message": "Questions? <a href=\"https://support.mozilla.org/en-US/products/webmaker\" style=\"color: #27AAE1; text-decoration: none;\">Ask our helpful community</a> of Mentors and Webmakers like you.",
+    "description": "text about and link to support"
+  }
 }

@@ -18,7 +18,7 @@ describe('webmaker-mailroom', function() {
     });
     it('should render partial html', function () {
       var result = mailer.render('test', {number: 42}, {partial: true});
-      should(result.html).equal('<p>This is a test 42</p>\n');
+      should(result.html).equal('<div>\n  <p>This is a test 42</p>\n</div>\n');
     });
   });
 
@@ -74,5 +74,4 @@ describe('webmaker-mailroom', function() {
 
   // Template
   makeTest('generator', generatorData, true);
-
 });

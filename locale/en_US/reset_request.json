@@ -1,0 +1,22 @@
+{
+  "subject_reset_request": {
+    "message": "Reset Your Webmaker Password",
+    "description": "Email subject for Password reset requests"
+  },
+  "rr_s1": {
+    "message": "You have requested to reset your Webmaker account password.",
+    "description": "First sentence in the reset request email"
+  },
+  "rr_s2": {
+    "message": "Click on the button below to set your new password.",
+    "description": "Second sentence in the reset request email"
+  },
+  "rr_s3": {
+    "message": "If you didn't request to reset your password, please disregard this email.",
+    "description": "Third sentence in the reset request email"
+  },
+  "reset_password_text": {
+    "message": "Reset Password",
+    "description": "Text for the reset request link in the email"
+  }
+}

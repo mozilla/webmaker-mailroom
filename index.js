@@ -58,12 +58,16 @@ module.exports = function (options) {
       locals.gettext = gettext(locale);
       locals.locale = locale;
       try {
+        html = nunjucks.render(dir + '/' + template + '/index.html', data);
+        subject = nunjucks.renderString(locals.gettext(metaData.subject), data);
         if (!partial) {
           header = baseHtml.header;
           footer = baseHtml.footer;
+        } else {
+          // displaying html inline, so replace body tags
+          html = html.replace(/<body( .*?)?>/gi, '<div$1>');
+          html = html.replace(/<\/(body)>/gi, '</div>');
         }
-        html = nunjucks.render(dir + '/' + template + '/index.html', data);
-        subject = nunjucks.renderString(locals.gettext(metaData.subject), data);
         return {
           html: header + html  + footer,
           subject: subject

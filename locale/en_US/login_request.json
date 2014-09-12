@@ -1,0 +1,30 @@
+{
+  "subject_login_request": {
+    "message": "Webmaker Login Request",
+    "description": "Subject for login request emails"
+  },
+  "about_webmaker_login": {
+    "message": "At Webmaker, we’re tired of forgotten and weak passwords, so we made this new experience. If you prefer, you can set a password from your profile page.",
+    "description": "Explaination of Webmaker Login"
+  },
+  "sign_in": {
+    "message": "Sign in",
+    "description": "Sign in button text"
+  },
+  "sign_in_and_remember": {
+    "message": "Sign in & Remember me",
+    "description": "Sign in and remember me button text"
+  },
+  "copy_key": {
+    "message": "Or, copy this temporary key into Webmaker: ",
+    "description": "Text displayed next to the temporary login key"
+  },
+  "webmaker_alt_text": {
+    "message": "Mozilla Webmaker Logo",
+    "description": "Alt text for webmaker logo"
+  },
+  "key_expiry_message": {
+    "message": "This link will stop working in 30 minutes. If you didn’t try to log in, you can ignore this message.",
+    "description": "A message describing the key expiry time"
+  }
+}

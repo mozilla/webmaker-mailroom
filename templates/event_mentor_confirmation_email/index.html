@@ -1,19 +1,21 @@
-<p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
+<body>
+  <p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
 
-<p>{{ 'e_m_c_1' | gettext | instantiate | safe }}</p>
+  <p>{{ 'e_m_c_1' | gettext | instantiate | safe }}</p>
 
-<p>
-  {% if username %}
-    {{ 'e_m_c_2' | gettext | instantiate | safe }}
-  {% else %}
-    {{ 'e_m_c_2_b' | gettext | instantiate | safe }}
-  {% endif %}
-  {{ 'e_m_c_3' | gettext | instantiate }}
-</p>
+  <p>
+    {% if username %}
+      {{ 'e_m_c_2' | gettext | instantiate | safe }}
+    {% else %}
+      {{ 'e_m_c_2_b' | gettext | instantiate | safe }}
+    {% endif %}
+    {{ 'e_m_c_3' | gettext | instantiate }}
+  </p>
 
-<p>{{ 'e_m_c_4' | gettext | instantiate | safe }}</p>
+  <p>{{ 'e_m_c_4' | gettext | instantiate | safe }}</p>
 
-<p>{{ 'Thanks! And congrats! :)' | gettext }}</p>
+  <p>{{ 'Thanks! And congrats! :)' | gettext }}</p>
 
-<p>Amira
-<br>{{ 'Webmaker Community Manager' | gettext }}</p>
+  <p>Amira
+  <br>{{ 'Webmaker Community Manager' | gettext }}</p>
+</body>
