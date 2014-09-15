@@ -19,13 +19,21 @@ var data = {
   name: 'Kate Hudson',
   faveTeam: 'DFB'
 };
-var locale = 'en-US';
+var options = {
+  locale: 'en-US',
+  partial: true
+};
 
-var email = mailroom.render(templateName, data, locale);
+var email = mailroom.render(templateName, data, options);
 // Output
 // email.html: The html of the email body
 // email.subject: The subject of the html
 ```
+
+### Options
+
+`locale` - The locale of the email, defaults to `en-US`.
+`partial` - Only render the body of the email, do not include html headers/footers. Defaults to `false`. Do NOT set this to true if you are passing the email directly to `node-mailer`, you want to include the full html.
 
 ## Development
 

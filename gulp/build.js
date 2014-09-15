@@ -7,15 +7,15 @@ var mockData = require('../test/mock-data.js');
 
 function generateHtml(templateName, metaData) {
   var tests = metaData.tests;
-  var separator = '\n<hr>\n';
-  var html = '<h1>' + metaData.name + '</h1>\n' +
-    '<p>' + metaData.description + '</p>\n<hr>\n' +
-    tests.map(function (test) {
-    var email = mailer.render(templateName, test.data);
-    return'<h3>Test case: ' + test.description + '</h3>\n' +
-      '\n<h4>Subject: ' + email.subject + '</h4>\n' +
-      email.html;
-  }).join(separator);
+  var emails = tests.map(function (test) {
+    var email = mailer.render(templateName, test.data, {partial: true});
+    email.test = test;
+    return email;
+  });
+  var html = nunjucks.render('test/fixtures/test-layout.html', {
+    data: metaData,
+    emails: emails
+  });
   return html;
 }
 
@@ -39,7 +39,7 @@ module.exports = function (callback) {
     fs.writeFileSync(__dirname + '/../build/' + templateName + '.html', html);
   });
 
-  var manifestHtml = nunjucks.render('test/manifest-layout.html', {templates: manifest});
+  var manifestHtml = nunjucks.render('test/fixtures/manifest-layout.html', {templates: manifest});
   fs.writeFileSync(__dirname +'/../build/index.html', manifestHtml);
 
   callback();

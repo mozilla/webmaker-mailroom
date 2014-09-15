@@ -1,76 +1,57 @@
-var assert = require('assert')
+var should = require('should');
+var bulk = require('bulk-require');
+
 var mailer = require('../index.js')();
-var data = require('./mock-data.js');
+var metaData = bulk(__dirname + '/../templates', '**/index.js');
 
 describe('webmaker-mailroom', function() {
   describe('#render', function() {
-
-    it('should render "test"', function() {
-      var output = mailer.render('test', data.test[0]);
-      assert.equal(output.html, '<p>This is a test 123</p>\n');
-      assert.equal(output.subject, 'This is a test');
+    it('should exist', function () {
+      mailer.render.should.be.ok;
     });
-
-    it('should render "event_mentor_confirmation_email"', function() {
-      var output = mailer.render('event_mentor_confirmation_email', data.event_mentor_confirmation_email[0]);
-      var output2 = mailer.render('event_mentor_confirmation_email', data.event_mentor_confirmation_email[1]);
-      assert(output.html);
-      assert(output.subject);
-      assert(output2.html);
-      assert(output2.subject);
+    it('should render template and data', function() {
+      var result = mailer.render('test', {number: 42}, {});
+      result.should.have.property('subject', 'This is a test');
+      result.should.have.property('html');
+      should(result.html.match('This is a test 42')).be.ok;
     });
-
-    it('should render "hive_badge_awarded"', function() {
-      var output = mailer.render('hive_badge_awarded', data.hive_badge_awarded[0]);
-      var output2 = mailer.render('hive_badge_awarded', data.hive_badge_awarded[1]);
-      assert(output.html);
-      assert(output.subject);
-      assert(output2.html);
-      assert(output2.subject);
+    it('should render partial html', function () {
+      var result = mailer.render('test', {number: 42}, {partial: true});
+      result.html.should.equal('<p>This is a test 42</p>\n');
     });
-
-    it('should render "badge_application_denied"', function() {
-      var output = mailer.render('badge_application_denied', data.badge_application_denied[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "event_coorganizer_added"', function() {
-      var output = mailer.render('event_coorganizer_added', data.event_coorganizer_added[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "event_created"', function() {
-      var output = mailer.render('event_created', data.event_created[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "remind_user_about_event"', function() {
-      var output = mailer.render('remind_user_about_event', data.remind_user_about_event[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "notify_mofo_staff_new_event"', function() {
-      var output = mailer.render('notify_mofo_staff_new_event', data.notify_mofo_staff_new_event[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "user_created"', function() {
-      var output = mailer.render('user_created', data.user_created[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "login_request"', function() {
-      var output = mailer.render('login_request', data.user_created[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
   });
+
+  function makeTest(id) {
+    describe('#' + id, function() {
+      var data = metaData[id].index;
+      it('should have a name', function () {
+        data.name.should.be.a.String;
+      });
+      it('should have a description', function () {
+        data.description.should.be.a.String;
+      });
+      it('should have an array of tests', function () {
+        data.tests.should.be.an.instanceof(Array);
+        data.tests.length.should.be.greaterThan(0);
+      });
+      it('should have a description and data for each test', function() {
+        data.tests.forEach(function (test) {
+          test.description.should.be.a.String;
+          test.data.should.be.an.Object.and.should.not.be.an.instanceof(Array);
+        });
+      });
+      data.tests.forEach(function (test) {
+        it('should render when ' + test.description, function() {
+          var output = mailer.render(id, test.data);
+          output.html.should.be.a.String;
+          output.subject.should.be.a.String;
+        });
+      });
+    });
+  }
+
+  for (var id in metaData) {
+    makeTest(id);
+  }
 
 });

@@ -36,18 +36,28 @@ module.exports = function (options) {
   });
 
   return {
-    render: function (template, data, locale) {
+    render: function (template, data, options) {
+      options = options || {};
       var locals = data || {};
+      var header = '';
+      var footer = '';
       var html;
       var subject;
+      var locale = options.locale;
+      var partial = options.partial;
+
       locale = isLanguageSupported(locale) ? locale : DEFAULT_LANG;
       locals.gettext = gettext(locale);
       locals.locale = locale;
       try {
+        if (!partial) {
+          header = nunjucks.render('base/header.html');
+          footer = nunjucks.render('base/footer.html');
+        }
         html = nunjucks.render('templates/' + template + '/index.html', data);
         subject = nunjucks.renderString(locals.gettext('subject_' + template), data);
         return {
-          html: html,
+          html: header + html  + footer,
           subject: subject
         };
       } catch (err) {

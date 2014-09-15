@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var mocha = require('gulp-mocha');
 
 var webserver = require('gulp-webserver');
 var clean = require('./gulp/clean');
@@ -8,28 +9,15 @@ var build = require('./gulp/build');
 gulp.task('clean', clean);
 gulp.task('build', ['clean'], build);
 
-var fs = require('fs');
-var path = require('path');
-gulp.task('convert', function (callback) {
-    var templateDir = __dirname + '/templates';
-    var convertDir = __dirname + '/converted';
-    var files = fs.readdirSync(templateDir);
-    files.forEach(function (file) {
-        if (path.extname(file) !== '.html') {
-            return;
-        }
-        var templateName = path.basename(file, '.html');
-        console.log(templateName);
-        var newDirName = convertDir + '/' + templateName;
-        fs.mkdirSync(newDirName);
-        fs.createReadStream(templateDir + '/' + file)
-        .pipe(fs.createWriteStream(newDirName + '/index.html'));
-    });
+//Test
+gulp.task('test', function() {
+  gulp.src('test/test.js', {read: false})
+    .pipe(mocha({reporter: 'spec'}));
 });
 
 // Watch
 gulp.task('watch', function () {
-  gulp.watch('./{partials,locale,test,templates}/**/*.{js,json,html}', ['build']);
+  gulp.watch('./{base,locale,test,templates}/**/*.{js,json,html}', ['build']);
 });
 
 // Server

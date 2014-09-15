@@ -1,0 +1,11 @@
+{% extends "test/fixtures/layout.html" %}
+{% block body %}
+<h1>Webmaker Email Templates <img src="https://travis-ci.org/mozilla/webmaker-mailroom.svg?branch=master"></h1>
+<p class="lead">Click on an email to see examples</p>
+<dl>
+{% for template in templates %}
+  <dt><a href="{{template.path}}">{{template.metaData.name}}</a></dt>
+  <dd>{{template.metaData.description}}</dd>
+{% endfor %}
+</dl>
+{% endblock %}
