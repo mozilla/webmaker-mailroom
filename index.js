@@ -44,7 +44,7 @@ module.exports = function (options) {
       locals.gettext = gettext(locale);
       locals.locale = locale;
       try {
-        html = nunjucks.render('templates/' + template + '.html', data);
+        html = nunjucks.render('templates/' + template + '/index.html', data);
         subject = nunjucks.renderString(locals.gettext('subject_' + template), data);
         return {
           html: html,
