@@ -5,7 +5,7 @@
 <h1>Templates</h1>
 <ul>
 {% for template in templates %}
-  <li><a href="{{template}}.html">{{template}}</a></li>
+  <li><a href="{{template.path}}">{{template.metaData.name}}</a></li>
 {% endfor %}
 </ul>
 
