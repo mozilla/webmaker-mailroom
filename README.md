@@ -32,144 +32,29 @@ var email = mailroom.render(templateName, data, options);
 
 ### Options
 
-`locale` - The locale of the email, defaults to `en-US`.
-`partial` - Only render the body of the email, do not include html headers/footers. Defaults to `false`. Do NOT set this to true if you are passing the email directly to `node-mailer`, you want to include the full html.
+* `locale` - The locale of the email, defaults to `en-US`.
+* `partial` - Only render the body of the email, do not include html headers/footers. Defaults to `false`. Do NOT set this to true if you are passing the email directly to `node-mailer`, you want to include the full html.
 
 ## Development
 
-If you are developing a template, simply run:
+If you are developing a template, install gulp with `npm install -g gulp` and simply run:
 
 ```
+npm install
 gulp dev
 ```
 
 This will start a watch process, build test files as you make changes, and run a server so you can view them in a browser.
 
-## Tests
-
-### Automatic (with mocha)
+### Tests
 
 ```
-npm install
-npm test
+gulp test
 ```
 
-### Manual tests
-
-```
-npm install
-node example
-```
-
-Then visit http://localhost:1967/<template name> in your browser.
-
-## Adding a new email template
-
-1. If your email event is called "Awesome Event", create an html file in `templates/` called `awesome_event.html`
-2. Refer to the [nunjucks templating docs](http://mozilla.github.io/nunjucks/templating.html) for how to add templated data.
-3. Add strings to `locale/en_US/strings.json`. In the template, you should use the syntax `{{ 'key-name' | gettext }}`
-4. Add a subject to `locale/en_US/strings.json`. The key should be `subject_<template name>`.
-5. Add some test data to `test/mock-data.js`. You should format your test data as an array of test data sets, commenting each one if necessary.
-6. Manually test your template by running `npm example`. If your html file was `templates/awesome_event.html`, you would navigate to `http://localhost:1967/awesome_event` in your browser.
-7. Add automatic tests for your template to `test/test.js` and run `npm test`.
-8. Update the 'List of available templates' section in `README.md`  with the event name and data model.
-
-## Adding a new email template
+### Adding a new email template
 
 1. Run `gulp new`. Choose an appropriate id for your email, e.g. `my_awesome_email`.
 2. In `templates/my_awesome_email/index.html`, create a template. Refer to the [nunjucks templating docs](http://mozilla.github.io/nunjucks/templating.html) for how to add templated data.
 3. In `templates/my_awesome_email/index.js`, add a name, description, and some test data for your email.
 4. Run `gulp test` to validate your template with the test data you provided, or `gulp dev` to see the email in the browser.
-
-## List of available templates
-
-### `test`
-Data model:
-```js
-{
-  number: "This can be any number, just for testing."
-}
-```
-
-### `event_mentor_confirmation_email`
-Data model:
-```js
-{
-  username: "Can be the event mentor's username or undefined if the email is not associated with a username",
-  eventUrl: "The url of the event page",
-  eventName: "The name of the event",
-  confirmUrlYes: "The tokenized landing page url for a positive confirmation",
-  confirmUrlNo: "The tokenized landing page url for a negative confirmation",
-  organizerUsername: "The username of the event organizer"
-}
-```
-
-### `event_coorganizer_added`
-Data model:
-```js
-{
-  username: "Co-organizer's email",
-  eventName: "The title of the event",
-  eventUrl: "The url of the event page",
-  eventEditUrl: "The url at which the event can be edited"
-}
-```
-
-### `hive_badge_awarded`
-Data model:
-
-If a user/username exists:
-```js
-{
-  username: "Badge earner's username",
-  badgeUrl: "The complete url of the badge, e.g. https://webmaker.org/badges/hive-community-member",
-  profileUrl: "The complete url of the user's profile page e.g. https://webmaker.org/user/user123",
-  comment: "The comments included with the approved application"
-}
-```
-
-If a user/username exists:
-```js
-{
-  badgeUrl: "The complete url of the badge, e.g. https://webmaker.org/badges/hive-community-member",
-  signUpUrl: "The complete url where a user can go to sign up for a new badge",
-  comment: "The comments included with the approved application"
-}
-```
-
-### `badge_application_denied`
-
-Data model:
-
-```js
-{
-  badgeName: 'Name of the badge',
-  badgeUrl: 'Full url of the badge',
-  comment: 'Comments from the badge application'
-}
-
-### `event_created`
-
-Data model:
-
-```js
-{
-  username: 'Webmaker username (optional)'
-}
-```
-
-## Tests
-
-### Automatic (with mocha)
-
-```
-npm install
-npm test
-```
-### Manual tests
-
-```
-npm install
-gulp serve
-```
-
