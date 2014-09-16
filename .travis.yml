@@ -1,3 +1,16 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
+before_deploy:
+  - ./node_modules/.bin/gulp build
+deploy:
+  skip_cleanup: true
+  provider: s3
+  access_key_id: AKIAJNNIEVLNEKJ2RAWA
+  secret_access_key:
+    secure: criJTq852Pb6eeY+XeocpUYciktco6ifPNK/guUpa4y53HDzQEoa/iWZlB5N+uP1n+WEnzR7/5TDQNNip4uuPONTyKNIc55RDG+5z9QSMHB4n7+SF2U9/2eBMypFX4slOHpYrrobP5XvUyjbDpkggxWiLOiPXiJVZOcFUkCTVPE=
+  bucket: webmaker-mailroom
+  local-dir: build
+  on:
+    branch: master
+    repo: mozilla/webmaker-mailroom

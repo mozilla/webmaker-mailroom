@@ -3,7 +3,6 @@ var path = require('path');
 var nunjucks = require('nunjucks');
 
 var mailer = require('../index.js')();
-var mockData = require('../test/mock-data.js');
 
 function generateHtml(templateName, metaData) {
   var tests = metaData.tests;

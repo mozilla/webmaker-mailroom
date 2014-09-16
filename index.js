@@ -35,6 +35,11 @@ module.exports = function (options) {
     translation_directory: path.resolve(__dirname, 'locale')
   });
 
+  var baseHtml = {
+    header: nunjucks.render('base/header.html'),
+    footer: nunjucks.render('base/footer.html')
+  };
+
   return {
     render: function (template, data, options) {
       options = options || {};
@@ -54,8 +59,8 @@ module.exports = function (options) {
       locals.locale = locale;
       try {
         if (!partial) {
-          header = nunjucks.render('base/header.html');
-          footer = nunjucks.render('base/footer.html');
+          header = baseHtml.header;
+          footer = baseHtml.footer;
         }
         html = nunjucks.render(dir + '/' + template + '/index.html', data);
         subject = nunjucks.renderString(locals.gettext(metaData.subject), data);
@@ -65,7 +70,6 @@ module.exports = function (options) {
         };
       } catch (err) {
         console.log(err);
-        return;
       }
     }
   };
