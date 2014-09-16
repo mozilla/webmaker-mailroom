@@ -23,6 +23,7 @@
     "gulp-webserver": "^0.7.2",
     "bulk-require": "^0.2.1",
     "gulp-mocha": "^1.1.0",
-    "should": "^4.0.4"
+    "should": "^4.0.4",
+    "inquirer": "^0.7.2"
   }
 }
