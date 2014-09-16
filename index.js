@@ -45,6 +45,9 @@ module.exports = function (options) {
       var subject;
       var locale = options.locale;
       var partial = options.partial;
+      // This option is really only used for tests
+      var dir = options.dir || 'templates';
+      var metaData = require(__dirname + '/' + dir +'/' + template);
 
       locale = isLanguageSupported(locale) ? locale : DEFAULT_LANG;
       locals.gettext = gettext(locale);
@@ -54,8 +57,8 @@ module.exports = function (options) {
           header = nunjucks.render('base/header.html');
           footer = nunjucks.render('base/footer.html');
         }
-        html = nunjucks.render('templates/' + template + '/index.html', data);
-        subject = nunjucks.renderString(locals.gettext('subject_' + template), data);
+        html = nunjucks.render(dir + '/' + template + '/index.html', data);
+        subject = nunjucks.renderString(locals.gettext(metaData.subject), data);
         return {
           html: header + html  + footer,
           subject: subject

@@ -1,6 +1,7 @@
 module.exports = {
   name: 'Remind user about an event',
   description: 'Sent to user when an event they have RSVPd to will happen soon',
+  subject: 'Event reminder {{ eventDate }}',
   tests: [{
     description: 'An event is about to occur',
     data: {

@@ -1,6 +1,7 @@
 module.exports = {
   name: 'Event Mentor Confirmation',
   description: 'This email is sent to a user who is added as an event mentor',
+  subject: 'Will you mentor for {{ eventName }}?',
   tests: [
     {
       description: 'jenn12 is added as a mentor to an event (she has a Webmaker account)',

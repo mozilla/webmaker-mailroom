@@ -74,6 +74,13 @@ Then visit http://localhost:1967/<template name> in your browser.
 7. Add automatic tests for your template to `test/test.js` and run `npm test`.
 8. Update the 'List of available templates' section in `README.md`  with the event name and data model.
 
+## Adding a new email template
+
+1. Run `gulp new`. Choose an appropriate id for your email, e.g. `my_awesome_email`.
+2. In `templates/my_awesome_email/index.html`, create a template. Refer to the [nunjucks templating docs](http://mozilla.github.io/nunjucks/templating.html) for how to add templated data.
+3. In `templates/my_awesome_email/index.js`, add a name, description, and some test data for your email.
+4. Run `gulp test` to validate your template with the test data you provided, or `gulp dev` to see the email in the browser.
+
 ## List of available templates
 
 ### `test`

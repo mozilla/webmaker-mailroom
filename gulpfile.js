@@ -4,7 +4,7 @@ var mocha = require('gulp-mocha');
 var webserver = require('gulp-webserver');
 var clean = require('./gulp/clean');
 var build = require('./gulp/build');
-var generator = require('./gulp/generator');
+var generator = require('./gulp/template-generator');
 
 // Build
 gulp.task('clean', clean);

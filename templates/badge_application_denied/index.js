@@ -1,6 +1,7 @@
 module.exports = {
   name: 'Badge Application Denied',
- description: 'This email is sent when a user\'s application is denied by a reviewer.',
+  description: 'This email is sent when a user\'s application is denied by a reviewer.',
+  subject: 'Your badge application',
   tests: [
     {
       description: 'A hive community badge application was denied.',

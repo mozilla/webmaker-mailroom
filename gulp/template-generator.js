@@ -16,7 +16,7 @@ module.exports = function (callback) {
       return 'That name is taken';
     }
   }], function (answers) {
-  gulp.src('./gulp/templates/**/*')
+  gulp.src('./gulp/generator/**/*')
     .pipe(gulp.dest('templates/' + answers.id));
     callback();
   });

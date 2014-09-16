@@ -1,6 +1,7 @@
 module.exports = {
   name: 'Hive Badge Awarded',
   description: 'This email is sent to a user who is added as an event mentor',
+  subject: 'Congratulations Hive Community Member!',
   tests: [
     {
       description: 'jenn12 is added as a mentor to an event (she has a Webmaker account)',
