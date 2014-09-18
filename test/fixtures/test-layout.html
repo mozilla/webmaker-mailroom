@@ -1,0 +1,17 @@
+{% extends "test/fixtures/layout.html" %}
+{% block body %}
+    <header>
+      <h1>{{data.name}}</h1>
+      <p class="lead">{{data.description}}</p>
+    </header>
+    <hr>
+    {% for email in emails %}
+    <div class="alert alert-info">Test case: {{ email.test.description}}</div>
+    <div class="panel panel-default">
+      <div class="panel-heading"> Subject: <strong>{{email.subject}}</strong></div>
+      <div class="panel-body">
+        {{email.html | safe}}
+      </div>
+    </div>
+    {% endfor %}
+{% endblock %}

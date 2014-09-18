@@ -1,5 +1,3 @@
-{% extends "base/layout.html" %}
-{% block body %}
 <p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
 
 <p>{{ 'b_a_d_1' | gettext | instantiate | safe }}</p>
@@ -15,7 +13,6 @@
 <p>Michelle Thorne,
 <br>{{ 'Global Strategist' | gettext }}
 <br>{{ 'Mozilla Webmaker' | gettext }}</p>
-{% endblock %}
 
 
 

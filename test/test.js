@@ -1,76 +1,78 @@
-var assert = require('assert')
+var should = require('should');
+var bulk = require('bulk-require');
+
 var mailer = require('../index.js')();
-var data = require('./mock-data.js');
+var metaData = bulk(__dirname + '/../templates', '**/index.js');
+var generatorData = require('../gulp/generator');
 
 describe('webmaker-mailroom', function() {
   describe('#render', function() {
-
-    it('should render "test"', function() {
-      var output = mailer.render('test', data.test[0]);
-      assert.equal(output.html, '<p>This is a test 123</p>\n');
-      assert.equal(output.subject, 'This is a test');
+    it('should exist', function () {
+      should(mailer.render).be.ok;
     });
-
-    it('should render "event_mentor_confirmation_email"', function() {
-      var output = mailer.render('event_mentor_confirmation_email', data.event_mentor_confirmation_email[0]);
-      var output2 = mailer.render('event_mentor_confirmation_email', data.event_mentor_confirmation_email[1]);
-      assert(output.html);
-      assert(output.subject);
-      assert(output2.html);
-      assert(output2.subject);
+    it('should render template and data', function() {
+      var result = mailer.render('test', {number: 42}, {});
+      should(result).have.property('subject', 'This is a test');
+      should(result).have.property('html');
+      should(result.html.match('This is a test 42')).be.ok;
     });
-
-    it('should render "hive_badge_awarded"', function() {
-      var output = mailer.render('hive_badge_awarded', data.hive_badge_awarded[0]);
-      var output2 = mailer.render('hive_badge_awarded', data.hive_badge_awarded[1]);
-      assert(output.html);
-      assert(output.subject);
-      assert(output2.html);
-      assert(output2.subject);
+    it('should render partial html', function () {
+      var result = mailer.render('test', {number: 42}, {partial: true});
+      should(result.html).equal('<p>This is a test 42</p>\n');
     });
-
-    it('should render "badge_application_denied"', function() {
-      var output = mailer.render('badge_application_denied', data.badge_application_denied[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "event_coorganizer_added"', function() {
-      var output = mailer.render('event_coorganizer_added', data.event_coorganizer_added[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "event_created"', function() {
-      var output = mailer.render('event_created', data.event_created[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "remind_user_about_event"', function() {
-      var output = mailer.render('remind_user_about_event', data.remind_user_about_event[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "notify_mofo_staff_new_event"', function() {
-      var output = mailer.render('notify_mofo_staff_new_event', data.notify_mofo_staff_new_event[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "user_created"', function() {
-      var output = mailer.render('user_created', data.user_created[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
-    it('should render "login_request"', function() {
-      var output = mailer.render('login_request', data.user_created[0]);
-      assert(output.html);
-      assert(output.subject);
-    });
-
   });
+
+  function makeTest(id, isGenerator) {
+    describe('#' + id, function() {
+      var data;
+      var options;
+      if (isGenerator) {
+        data = generatorData;
+        options = {dir: 'gulp'}
+      } else {
+        data = metaData[id].index;
+      }
+      it('should have a name', function () {
+        should(data.name).be.a.String;
+        if (!isGenerator) data.name.should.be.ok;
+      });
+      it('should have a description', function () {
+        should(data.description).be.a.String;
+        if (!isGenerator) data.description.should.be.ok;
+      });
+      it('should have a subject', function () {
+        should(data.subject).be.a.String;
+        if (!isGenerator) data.subject.should.be.ok;
+      });
+      it('should have an array of tests', function () {
+        should(data.tests).be.an.instanceof(Array);
+        should(data.tests.length).be.greaterThan(0);
+      });
+      it('should have a description and data for each test', function() {
+        data.tests.forEach(function (test) {
+          should(test.description).be.a.String;
+          should(test.data).be.an.Object;
+          test.data.should.not.be.an.instanceof(Array);
+        });
+      });
+      data.tests.forEach(function (test) {
+        it('should render when ' + test.description, function() {
+          var output = mailer.render(id, test.data, options);
+          should(output).be.an.Object;
+          should(output.html).be.a.String;
+          output.html.should.be.ok;
+          should(output.subject).be.a.String;
+          if (!isGenerator) output.subject.should.be.ok;
+        });
+      });
+    });
+  }
+
+  for (var id in metaData) {
+    makeTest(id);
+  }
+
+  // Template
+  makeTest('generator', generatorData, true);
 
 });
