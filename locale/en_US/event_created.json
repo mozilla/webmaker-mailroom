@@ -1,0 +1,14 @@
+{
+  "Tips for your Webmaker event": {
+    "message": "Tips for your Webmaker event",
+    "description": "Subject for the Event Created email"
+  },
+  "event_created_1": {
+    "message": "I'm excited to hear you're throwing an event! To help you make it a success, we've compiled some <a href=\"https://party.webmaker.org/resources\">tips and tricks</a>. These resources will help you organize your event, get the most out of our teaching materials, work with local partners, gain press coverage, gather feedback, and more. ",
+    "description": "First paragraph of the Event Created email"
+  },
+  "event_created_2": {
+    "message": "If you have any questions, don't hesitate to contact me. I'm here to help!",
+    "description": "Second paragraph of the Event Created email"
+  }
+}
