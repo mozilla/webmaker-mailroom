@@ -1,6 +1,6 @@
 <p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
 
-<p>{{ 'r_u_a_e_1' | gettext }}<p>
+<p>{{ 'event_reminder_1' | gettext }}<p>
 
 <p><strong>{{ eventDate }}</strong><br>
 <a href="{{ eventURL }}">{{ eventTitle }}</a><br>
@@ -8,14 +8,14 @@
 
 <p>{{ eventDescription }}</p>
 
-<p>{{ 'r_u_a_e_2' | gettext }}</p>
+<p>{{ 'event_reminder_2' | gettext }}</p>
 <p><strong>{{ organizerUsername }}</strong>
 {% if organizerEmail %}
 <br>{{ organizerEmail }}
 {% endif %}
 </p>
 
-<p>{{ 'r_u_a_e_3' | gettext }}</p>
+<p>{{ 'event_reminder_3' | gettext | safe}}</p>
 
 <p>Amira
 <br>{{ 'Webmaker Community Manager' | gettext }}</p>

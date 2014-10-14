@@ -1,0 +1,19 @@
+{
+  "Event reminder {{ eventDate }}": {
+    "message": "Event reminder {{ eventDate }}",
+    "description": "Subject for the event reminder email"
+  },
+  "event_reminder_1": {
+    "message": "This is a reminder that you have registered for an upcoming event.",
+    "description": "First paragraph of the event reminder email"
+  },
+  "event_reminder_2": {
+    "message": "Hosted by:",
+    "description": "Information about the event host follows this paragraph"
+  },
+  "event_reminder_3": {
+    "message": "Get ready to make, learn and have fun! Don't forget to tweet using <a href=\"https://twitter.com/webmaker\">@Webmaker</a> on Twitter and tell us how it goes (and show us what you make).",
+    "description": "Third paragraph of the event reminder email"
+  }
+}
+
