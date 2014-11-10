@@ -1,0 +1,105 @@
+<p>Hi {{ username }},</p>
+
+{% if activity_type == "meme" %}
+  <p>I'm excited to hear you're leading a Remix Your School Webmaker activity!</p>
+{% elif activity_type == 'privacy' %}
+  <p>I'm excited to hear you're leading a Private Eye Webmaker activity!</p>
+{% elif activity_type == 'video' %}
+  <p>I'm excited to hear you're leading a Music Video Mashup Webmaker activity!</p>
+{% endif %}
+
+<p>To help you make it a success, here's a set of instructions and some helpful tips and tricks below.</p>
+
+<p>Please review and feel free to contact me directly with any questions. I'm here to help!</p>
+
+{% if activity_type == "meme" %}
+  <p>Your event is scheduled for {{ eventDate }}. On the day of your event, please send participants to the launch page for your <a href="https://webmaker.org/remix-your-school">activity</a>.</p>
+{% elif activity_type == 'privacy' %}
+  <p>Your event is scheduled for {{ eventDate }}. On the day of your event, please send participants to the launch page for your <a href="https://webmaker.org/private-eye">activity</a>.</p>
+{% elif activity_type == 'video' %}
+  <p>Your event is scheduled for {{ eventDate }}. On the day of your event, please send participants to the launch page for your <a href="https://webmaker.org/music-video">activity</a>.</p>
+{% endif %}
+
+<p>Thanks again for sharing your web skills. We look forward to seeing what you create.</p>
+
+<p>Happy teaching,
+<br>Amira
+<br>{{ 'Webmaker Community Manager' | gettext }}</p>
+
+<hr>
+
+{% if activity_type == 'meme' %}
+  <h3>Remix Your School</h3>
+  <p>In this Webmaker activity, you'll remix the website of a school. It's fun and creative and a great entry point for learning basic HTML.</p>
+  <p>Remind your students (and yourself) not to worry &ndash; you're just changing a version of the site that only you and others you share with can see.</p>
+  <p>Once participants click on the event link, guide them through the steps below to complete the activity!</p>
+  <p><strong>Step 1</strong>: Install X-ray Goggles
+  <br>Have everyone install X-ray Goggles by dragging the big yellow button to your browser's toolbar.</p>
+  <p><strong>Step 2</strong>: Navigate to School Website
+  <br>Have your participants type in the URL of their school's website. If they don't know the address have them search for it and navigate to that page. Or, if they'd prefer they can type in the address of any website they want!</p>
+  <p><strong>Step 3</strong>: Activate the Goggles!
+  <br>With the website loaded, click on the X-ray Goggles bookmarklet in the web browser's toolbar. You will know X-ray Goggles is activated when a toolbar appears in the lower right corner of the screen or when elements on the page become highlighted upon rollover.</p>
+  <p><strong>Step 4</strong>: Remix!
+  <br>Have your participants highlight an element on the page they would like to modify. It's easiest to start with some simple text and then move on to remixing images once they get the hang of it.
+  <br>With the element on the page highlighted, participants can either click or hit "R" on their keyboard to launch the remixer.</p>
+  <p><strong>Step 5</strong>: Change the Text
+  <br>Have participants edit the text using the remix window. The main headline of the page is a good place to start.
+  <br>Some fun examples include announcing that school has been cancelled or that their favorite teacher has been abducted by aliens.
+  <br>Click "save" and participants will be returned to a new version of their page with their very own headline.</p>
+  <p><strong>Step 6</strong>: Advanced Remixing
+  <br>Ask participants to find a simple image on the page, have them mouse over and click "R" for remix.
+  <br>In a different browser tab, have participants search for a simple image and have them copy the URL for the new image.  For example, they might replace the school mascot with their favorite Internet cat image.
+  <br>Return to the X-ray Goggles tab and the remix window for the selected image. Replace the existing image by pasting the new image URL copied in the previous step.
+  <br>Click "save" and participants will have a new school mascot!</p>
+  <p><strong>Step 7</strong>: Publishing
+  <br>Have participants publish the new version of their site by clicking the publish button on the menu in the lower right corner or by pressing "P" on the keyboard.
+  <br>This  change will make their changes visible with a unique URL for others to see. Have participants share their creations with one another to see what creative remixes they came up with.
+  <br>If participants want to show off their remixes on social media, have them use the #webmaker hashtag so that other makers can be inspired by their work!</p>
+  <p><strong>Step 8</strong>: Rinse, lather, repeat
+  <br>With the basics of remixing covered, have participants repeat steps 4-6 as time permits to get even more creative.
+  <br>Along the way, it's a good opportunity to start talking about how the various HTML tags have been used in their remixes so they start to get a basic sense of how webpages are made.</p>
+{% elif activity_type == 'privacy' %}
+  <h3>Private Eye - See Who's Tracking You Online</h3>
+  <p>In this Webmaker activity, you'll create a "Wizard of Oz" moment by pulling back the curtains on who is watching you when browsing the web. Participants will never look at the web the same way again!</p>
+  <p>Once participants click on the event link, just guide them through the steps below to complete the activity!</p>
+  <p><strong>Step 1</strong>: Install Lightbeam Tool
+  <br>Have participants install Lightbeam tool on their browser by clicking the big green button on the Activity launch page.</p>
+  <p><strong>Step 2</strong>: Surf the Web
+  <br>Have participants take 5 minutes to visit their favorite websites. 5 sites should do the trick and can include Facebook, YouTube, Netflix, the New York Times, Amazon - anything will work.</p>
+  <p><strong>Step 3</strong>: See Who's Tracking You Online
+  <br>Have everyone click on the Lightbeam icon in their toolbar.
+  <br>A graph will appear with a map of all the sites they visited along with all the third party sites that are active on those sites and that participants won't know they even visited!
+  <br>Explain to participants what third party sites are. They are another company, like an advertiser or data analytics company, that tracks what participants do on the main sites they visit.
+  <br>This is the eye opening part - participants will have interacted with many more sites than those they actually visited. It's a good time to discuss the implications of tracking and privacy on the Internet.</p>
+  <p><strong>Step 4</strong>: Ways to Protect Yourself from Unwanted Tracking
+  <br>Have participants open up the preferences menu in their Firefox browsers and click on the "Privacy" option.
+  <br>Have participants click on the option that says "Tell sites I do not want to be tracked." This is another good opportunity to discuss various sites terms and conditions and whether or not they ignore user preference like these. In some cases they don't!</p>
+  <p><strong>Step 5</strong>: Surf Your Private Web
+  <br>With privacy setting set to do not track, have participants repeat steps 2-3. Does the graph of sites visited change?
+  <br>Either during the activity or as a bit of "homework" have participants read up on "Do Not Track" and what Mozilla is doing to work with companies to implement.</p>
+{% elif activity_type == 'video' %}
+  <h3>Make a Music Video on the Web</h3>
+  <p>In this Webmaker activity, you'll make a fun, simple music video on the web. It's fun and creative and a great entry point for learning basic remixing skills with various types of media.</p>
+  <p>Once participants click on the event link, just guide them through the steps below to complete the activity!</p>
+  <p><strong>Step 1</strong>: Launch Popcorn Maker
+  <br>Have participants launch Popcorn Maker by clicking the button on the Activity launch page.
+  <br>You can also access Popcorn Maker at <a href="https://popcorn.webmaker.org/">https://popcorn.webmaker.org/</a>.</p>
+  <p><strong>Step 2</strong>: Add a Favorite Tune
+  <br>In the search box (where it says "paste a YouTube, clyp, Soundcloud..."), have participants search for their favorite video by entering a search term and clicking "get media". Example: "Pharrell Happy".
+  <br>Relevant results will appear just below the search box. Have participants click on video and it will be added to the timeline to the left.</p>
+  <p><strong>Step 3</strong>: Add a Second Video to Timeline
+  <br>Have participants find another video, this time with imagery they like and would be a good match for the music in Step 2. It can be another random YouTube clip, a video participants make of them singing the song themselves or fluffy cat videos!
+  <br>After searching, have them click on the video to add it to the timeline just like they did in Step 2.</p>
+  <p><strong>Step 4</strong>: Adjust Audio and Video in Timeline
+  <br>With both videos added to the timeline, click on the music video and in the right hand control panel switch "video" to "off."
+  <br>Now have participants click on the second video and in the right hand control panel switch "audio" to "off."</p>
+  <p><strong>Step 5</strong>: Preview the New Music Video
+  <br>Hit the "play" button underneath the video to preview the new Music Video Mashup!</p>
+  <p><strong>Step 6</strong>: Get Fancy
+  <br>Have participants explore Popcorn Maker by adding on additional layers to their music video. They can add text, links, photos, animated GIFs and more.
+  <br>This is the fun part. Give participants some time to create something awesome and then share their new creations with the group.</p>
+  <p><strong>Step 7</strong>: Publishing
+  <br>Have participants publish the new video by clicking the big green "save" button at the top.
+  <br>This change will make their changes visible with a unique URL for others to see. Have participants share their creations with one another to see what creative remixes they came up with.
+  <br>If participants want to show off their remixes on social media, have them use the #webmaker hashtag so that other makers can be inspired by their work!</p>
+{% endif %}
