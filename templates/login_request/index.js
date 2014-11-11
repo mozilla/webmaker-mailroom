@@ -7,7 +7,8 @@ module.exports = {
       description: 'cade has requested a login token',
       data: {
         token: 'kakav-nufuk',
-        username: 'cade'
+        username: 'cade',
+        loginUrl: 'https://login.webmaker.org/?uid=cade&token=kakav-nufuk'
       }
     }
   ]
