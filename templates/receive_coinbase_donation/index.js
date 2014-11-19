@@ -17,8 +17,7 @@ module.exports = {
         email: 'user@webmaker.org',
         bitcoin_amount: '0.001268',
         usd_amount: '0.50',
-        transaction_date: '2014-11-14T12:40:34-08:00',
-        transaction_id: '1A2B3C4D'
+        transaction_date: '2014-11-14T12:40:34-08:00'
       }
     }
   ]
