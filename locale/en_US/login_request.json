@@ -16,7 +16,7 @@
     "description": "Sign in and remember me button text"
   },
   "copy_key": {
-    "message": "Or, copy this temporary key into Webmaker: ",
+    "message": "Or, copy this key into Webmaker: ",
     "description": "Text displayed next to the temporary login key"
   },
   "webmaker_alt_text": {
@@ -24,7 +24,8 @@
     "description": "Alt text for webmaker logo"
   },
   "key_expiry_message": {
-    "message": "This link will stop working in 30 minutes. If you didn’t try to log in, you can ignore this message.",
-    "description": "A message describing the key expiry time"
+    "message": "If you did not try to sign in, you can ignore this message. If you
+    prefer, you can <a href=\"https://login.webmaker.org/account\">set a password</a> to use for sign in. Questions? View our <a href=\"https://support.mozilla.org/kb/webmaker-account-help\">help article</a> or email <a href=\"mailto:help@webmaker.org\">help@webmaker.org</a>.",
+    "description": "A message describing how to set a password or seek help"
   }
 }
