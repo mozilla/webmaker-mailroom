@@ -3,10 +3,6 @@
     "message": "Webmaker Login Request",
     "description": "Subject for login request emails"
   },
-  "about_webmaker_login": {
-    "message": "At Webmaker, we’re tired of forgotten and weak passwords, so we made this new experience. If you prefer, you can set a password from your profile page.",
-    "description": "Explaination of Webmaker Login"
-  },
   "sign_in": {
     "message": "Sign in",
     "description": "Sign in button text"
