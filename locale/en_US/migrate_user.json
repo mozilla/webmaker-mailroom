@@ -1,0 +1,22 @@
+{
+  "subject_migrate_user": {
+    "message": "Set up your new Webmaker account password",
+    "description": "Subject for migrate user emails"
+  },
+  "new_log_in": {
+    "message": "Webmaker is using a new log in system to ensure your experience is simple and safe. To get started, click here to set a password, or copy and paste this migration token into the text field:",
+    "description": "Describes the purpose of the email"
+  },
+  "set_password": {
+    "message": "Set Password",
+    "description": "Set Password button text"
+  },
+  "webmaker_alt_text": {
+    "message": "Mozilla Webmaker Logo",
+    "description": "Alt text for webmaker logo"
+  },
+  "need_help": {
+    "message": "If you did not try to create a password, you can ignore this message, or send an email to <a href=\"mailto:help@webmaker.org\">help@webmaker.org</a> to ask for help.",
+    "description": "A message describing how to set a password or seek help"
+  }
+}
