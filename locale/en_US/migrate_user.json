@@ -3,9 +3,13 @@
     "message": "Set up your new Webmaker account password",
     "description": "Subject for migrate user emails"
   },
-  "new_log_in": {
-    "message": "Webmaker is using a new log in system to ensure your experience is simple and safe. To get started, click here to set a password, or copy and paste this migration token into the text field:",
-    "description": "Describes the purpose of the email"
+  "new_login_system": {
+    "message": "Webmaker is using a new log in system to ensure your experience is simple and safe.",
+    "description": "About the new Webmaker login"
+  },
+  "set_password_text": {
+    "message": "To get started, <a href=\"{{ migrateUrl }}\">click here</a> to set a password, or copy and paste the url below into your browser: ",
+    "description": "A link to follow to get started migrating"
   },
   "set_password": {
     "message": "Set Password",
