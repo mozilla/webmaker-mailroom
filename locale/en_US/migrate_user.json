@@ -4,7 +4,7 @@
     "description": "Subject for migrate user emails"
   },
   "new_login_system": {
-    "message": "Webmaker is using a new log in system to ensure your experience is simple and safe.",
+    "message": "Webmaker is using a new login system to ensure<br />your experience is simple and safe.",
     "description": "About the new Webmaker login"
   },
   "set_password_text": {
