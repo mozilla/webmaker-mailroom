@@ -16,7 +16,7 @@
     "description" : "Message displayed before the list of things discovered though Mozilla Teach the Web"
   },
   "Free and open resources": {
-    "message": "Free and open resources to teach your learners about the web - start with these [link to activities page]",
+    "message": "Free and open resources to teach your learners about the web - <a href=\"https://teach.mozilla.org/activities/\">start with these</a>",
     "description" : "list item about resources for teachers of the web"
   },
   "Opportunities to become": {
@@ -44,16 +44,12 @@
     "description" : "A message about how adding clubs, programs and classrooms is simple, and how it helps Mozilla send locally relevant resources"
   },
   "If you dont have a local group": {
-    "message": "If you don't have a local group yet, let us know you're interested [link to interested workflow], and one of our staff will be in touch with you directly.",
+    "message": "If you don't have a local group yet, <a href=\"https://teach.mozilla.org/mozilla-web-clubs/\">let us know you're interested</a>, and one of our staff will be in touch with you directly.",
     "description" : "An ask to let Mozilla know if you're interested in starting a local group"
   },
   "any questions": {
-    "message": "If you have any questions, we're here to help.",
+    "message": "If you have any questions, we're here to help. Our community loves to tweet and talk to new people – use the #teachtheweb hashtag to find us.",
     "description" : "A message stating that we are able to help if there are any questions"
-  },
-  "Our community loves to tweet and talk": {
-    "message": "Our community loves to tweet and talk to new people – use the #teachtheweb hashtag to find us.",
-    "description" : "A message describing how to communicate with the community"
   },
   "on behalf of the Mozilla Learning team": {
     "message": "on behalf of the Mozilla Learning team",
