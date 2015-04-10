@@ -1,0 +1,35 @@
+<body>
+  <p>{{ 'Welcome' | gettext | instantiate }}</p>
+
+  <p>{{ 'Thanks for your interest' | gettext }}</p>
+
+  <p>{{ 'help you discover' | gettext }}</p>
+
+  <ul>
+    <li>{{ 'Free and open resources' | gettext | instantiate | safe }}</li>
+
+    <li>{{ 'Opportunities to become' | gettext | instantiate | safe }}</li>
+
+    <li>{{ 'Tips on using Webmaker tools' | gettext | instantiate | safe }}</li>
+
+    <li>{{ 'Best practices' | gettext | instantiate | safe }}</li>
+  </ul>
+
+  <p>{{ 'Start by putting your city on the map' | gettext }}</p>
+
+  <p>
+    {{ 'If you are teaching the web' | gettext }}
+    {{ 'Adding your club, program or classroom is simple' | gettext }}
+    {{ 'If you dont have a local group' | gettext | safe }}
+  </p>
+
+  <p>{{ 'any questions' | gettext }}</p>
+
+  <p>
+    Michelle Thorne
+    <br />
+    {{ 'on behalf of the Mozilla Learning team' | gettext | safe }}
+  </p>
+
+  <p class="unsubscribe">{{ 'unsubscribe' | gettext | instantiate | safe }}</p>
+</body>

@@ -1,0 +1,62 @@
+{
+  "Welcome to the Mozilla Teach the Web Community!": {
+    "message": "Welcome to the Mozilla Teach the Web Community!",
+    "description": "Email subject for user_created_teach email"
+  },
+  "Welcome": {
+    "message": "Welcome!",
+    "description" : "Email greeting"
+  },
+  "Thanks for your interest": {
+    "message": "Thanks for your interest in our global community of educators and activists who teach the web.",
+    "description" : "A thank you message for showing interest in the community"
+  },
+  "help you discover": {
+    "message": "We'll help you discover:",
+    "description" : "Message displayed before the list of things discovered though Mozilla Teach the Web"
+  },
+  "Free and open resources": {
+    "message": "Free and open resources to teach your learners about the web - <a href=\"https://teach.mozilla.org/activities/\">start with these</a>",
+    "description" : "list item about resources for teachers of the web"
+  },
+  "Opportunities to become": {
+    "message": "Opportunities to become a better facilitative leader and mentor",
+    "description" : "list item about becoming better at leading and mentoring"
+  },
+  "Tips on using Webmaker tools": {
+    "message": "Tips on using Webmaker tools to create and teach",
+    "description" : "list item about tips for Webmaker tools"
+  },
+  "Best practices": {
+    "message": "Best practices from peers and future collaborators",
+    "description" : "list item about best practices"
+  },
+  "Start by putting your city on the map": {
+    "message": "Start by putting your city on the map.",
+    "description" : "A tip for starting out in the Webmaker Teach the web community by putting your city on the map"
+  },
+  "If you are teaching the web": {
+    "message": "If you're teaching the web in your local community, we want to know about it.",
+    "description" : "A request to let Webmaker know if you're teaching the web in your community"
+  },
+  "Adding your club, program or classroom is simple": {
+    "message": "Adding your club, program or classroom to our community map is simple, and allows us to send you locally relevant resources.",
+    "description" : "A message about how adding clubs, programs and classrooms is simple, and how it helps Mozilla send locally relevant resources"
+  },
+  "If you dont have a local group": {
+    "message": "If you don't have a local group yet, <a href=\"https://teach.mozilla.org/mozilla-web-clubs/\">let us know you're interested</a>, and one of our staff will be in touch with you directly.",
+    "description" : "An ask to let Mozilla know if you're interested in starting a local group"
+  },
+  "any questions": {
+    "message": "If you have any questions, we're here to help. Our community loves to tweet and talk to new people – use the #teachtheweb hashtag to find us.",
+    "description" : "A message stating that we are able to help if there are any questions"
+  },
+  "on behalf of the Mozilla Learning team": {
+    "message": "on behalf of the Mozilla Learning team",
+    "description" : "Message below the email signature"
+  },
+  "unsubscribe": {
+    "message": "If you do not wish to receive any more emails from Mozilla Webmaker you can change your <a href=\"https://login.webmaker.org/{{locale}}/account\">email preferences</a>.",
+    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+  }
+}
