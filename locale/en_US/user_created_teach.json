@@ -40,7 +40,7 @@
     "description" : "A request to let Webmaker know if you're teaching the web in your community"
   },
   "Adding your club, program or classroom is simple": {
-    "message": "Adding your club, program or classroom to our <a href=\"https://teach.mozilla.org/mozilla-web-clubs/\">community map</a> is simple, and allows us to send you locally relevant resources.",
+    "message": "Adding your club, program or classroom to our <a href=\"https://teach.mozilla.org/clubs\">community map</a> is simple, and allows us to send you locally relevant resources.",
     "description" : "A message about how adding clubs, programs and classrooms is simple, and how it helps Mozilla send locally relevant resources"
   },
   "If you dont have a local group": {
