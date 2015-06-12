@@ -13,26 +13,30 @@
   },
   "li1Discover": {
     "message": "<em>Discover</em>: Explore what your fellow Webmakers have already created in the Discover gallery. There are scrapbooks, photo galleries, comics and more, much of it made in your local community.",
-    "description": ""
+    "description": "Encouragement to Discover with Webmaker"
   },
   "li2Create": {
     "message": "<em>Create</em>: Remix a project from the gallery or start from scratch. It's easy to create your own meme, family album or choose-your-own adventure game. The possibilities are endless.",
-    "description": ""
+    "description": "Encouragement to Create with Webmaker"
   },
   "li3Share": {
     "message": "<em>Share</em>: When your new masterpiece is finished, show it off to your friends, family or community. It's easy to share on the Web, via SMS or your favorite social network.",
-    "description": ""
+    "description": "Encouragement to Íahre with Webmaker"
   },
   "lastParagraph": {
     "message": "I'm so glad you've joined the Webmaker community. Together, we can build a Web that's open and made for everyone. If you have questions, feel free to <a href=\"mailto:help@webmaker.org\">email</a> me or tweet <a href=\"https://twitter.com/webmaker\">@webmaker</a>.",
-    "description": ""
+    "description": "Summary text saying we're glad the user joined"
   },
   "cheersWMCommunityMGR": {
     "message": "Cheers,<br>Bobby Richter<br>Webmaker Community Manager<br>ᕕ( ᐛ)ᕗ",
-    "description": ""
+    "description": "Signature"
+  },
+  "psFollowUs": {
+    "message": "P.S. Follow us on Twitter <a href=\"https://twitter.com/webmaker\">@webmaker</a> for updates on the app and featured projects — and who knows, maybe your creation will be the next one we share with the world!",
+    "description": "Post-script to say people should follow us and send us their projects to be featured"
   },
   "unsubscribe": {
     "message": "If you do not wish to receive any more emails from Mozilla Webmaker, you can change your <a href=\"https://login.webmaker.org/{{locale}}/account\">email preferences</a>.",
-    "description": ""
+    "description": "Unsubscribe blurb"
   }
 }
