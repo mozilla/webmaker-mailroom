@@ -4,35 +4,39 @@
     "description": "Email subject for user_created email"
   },
   "p1WelcomeToMozillaWebmaker": {
-    "message": "Welcome to Mozilla Webmaker! Thank you for joining us to explore, play and create together to build a web that's open and made by everyone.",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+    "message": "Welcome to Mozilla Webmaker! Thank you for joining us to discover, create and share the Web. I'm looking forward to seeing what you create.",
+    "description": "Welcome email intro paragraph"
   },
-  "p2YouCanGetStartedRightNow": {
-    "message": "You can get started right now with these free tools:",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+  "p2GetStarted": {
+    "message": "Here are some of the fun things you can do with the new Webmaker app:",
+    "description": "Welcome email start of list of things to do with Webmaker"
   },
-  "li1GogglesItem": {
-    "message": "<em><a href=\"https://goggles.webmaker.org/{{locale}}\" target=\"_blank\" title=\"X-Ray Goggles\">X-Ray Goggles</a></em> allow you to <strong>see the code behind any webpage</strong> and remix elements with a single click, swapping in your own text and images.",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+  "li1Discover": {
+    "message": "<em>Discover</em>: Explore what your fellow Webmakers have already created in the Discover gallery. There are scrapbooks, photo galleries, comics and more, much of it made in your local community.",
+    "description": "Encouragement to Discover with Webmaker"
   },
-  "li2ThimbleItem": {
-    "message": "<em><a href=\"https://thimble.webmaker.org/{{locale}}\" target=\"_blank\" title=\"Thimble\">Thimble</a></em>, an easy-to-use HTML and CSS editor, lets you <strong>learn code by writing it directly in your browser</strong> to create your own webpage.",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+  "li2Create": {
+    "message": "<em>Create</em>: Remix a project from the gallery or start from scratch. It's easy to create your own meme, family album or choose-your-own adventure game. The possibilities are endless.",
+    "description": "Encouragement to Create with Webmaker"
   },
-  "li3PopcornItem": {
-    "message": "<em><a href=\"https://popcorn.webmaker.org/{{locale}}\" target=\"_blank\" title=\"Popcorn Maker\">Popcorn Maker</a></em> helps you <strong>combine content from across the web</strong> like GIFs, music, photos and videos into cool mashups that you can annotate and share.",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+  "li3Share": {
+    "message": "<em>Share</em>: When your new masterpiece is finished, show it off to your friends, family or community. It's easy to share on the Web, via SMS or your favorite social network.",
+    "description": "Encouragement to Íahre with Webmaker"
   },
   "lastParagraph": {
-    "message": "I'm so glad you've joined the Webmaker community. If you have questions, feel free to email me or tweet @webmaker. I'm looking forward to seeing  what you make on the web!",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+    "message": "I'm so glad you've joined the Webmaker community. Together, we can build a Web that's open and made for everyone. If you have questions, feel free to <a href=\"mailto:help@webmaker.org\">email</a> me or tweet <a href=\"https://twitter.com/webmaker\">@webmaker</a>.",
+    "description": "Summary text saying we're glad the user joined"
   },
-  "cheersAmira": {
-    "message": "Cheers,<br>Amira<br>Webmaker Community Manager",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+  "cheersWMCommunityMGR": {
+    "message": "Cheers,<br>Bobby Richter<br>Webmaker Community Manager<br>ᕕ( ᐛ)ᕗ",
+    "description": "Signature"
+  },
+  "psFollowUs": {
+    "message": "P.S. Follow us on Twitter <a href=\"https://twitter.com/webmaker\">@webmaker</a> for updates on the app and featured projects — and who knows, maybe your creation will be the next one we share with the world!",
+    "description": "Post-script to say people should follow us and send us their projects to be featured"
   },
   "unsubscribe": {
-    "message": "If you do not wish to receive any more emails from Mozilla Webmaker you can change your <a href=\"https://login.webmaker.org/{{locale}}/account\">email preferences</a>.",
-    "description": "Please see this sample in Thimble page https://aali.makes.org/thimble/MTY3MzMzMDY4OA==/email-localization"
+    "message": "If you do not wish to receive any more emails from Mozilla Webmaker, you can change your <a href=\"https://login.webmaker.org/{{locale}}/account\">email preferences</a>.",
+    "description": "Unsubscribe blurb"
   }
 }
