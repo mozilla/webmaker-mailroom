@@ -1,0 +1,42 @@
+{
+    "Welcome to Webmaker. Let's get you started.": {
+        "message": "Selamat datang di Webmaker. Mari kita mulai.",
+        "description": "Email subject for user_created email"
+    },
+    "lastParagraph": {
+        "message": "Kami sangat senang kamu telah bergabung di komunitas Webmaker. Bersama, kita bisa membangun Web yang terbuka dan tersedia untuk semua. Jika kamu ingin bertanya, jangan segan untuk  <a href=\"mailto:help@webmaker.org\">mengirim surel</a> kepada kami atau tweet ke <a href=\"https://twitter.com/webmaker\">@webmaker</a>.",
+        "description": "Summary text saying we're glad the user joined"
+    },
+    "p2GetStarted": {
+        "message": "Berikut ini beberapa hal menarik yang bisa kamu lakukan dengan aplikasi Webmaker:",
+        "description": "Welcome email start of list of things to do with Webmaker"
+    },
+    "li1Discover": {
+        "message": "<em>Temukan</em>: Lihat apa yang telah dibuat oleh Webmakers lainnya di galeri Temukan. Ada buku tempel, galeri foto, komik dan masih banyak lagi, kebanyakan dibuat oleh komunitas lokal kamu.",
+        "description": "Encouragement to Discover with Webmaker"
+    },
+    "p1WelcomeToMozillaWebmaker": {
+        "message": "Selamat datang di Mozilla Webmaker! Terima kasih sudah bergabung untuk menemukan, membuat dan berbagi Web. Kami tak sabar untuk melihat apa yang kamu buat.",
+        "description": "Welcome email intro paragraph"
+    },
+    "cheersWMCommunityMGR": {
+        "message": "Salam,<br>Bobby Richter<br>Manager Komunitas Webmaker<br>ᕕ( ᐛ)ᕗ",
+        "description": "Signature"
+    },
+    "li2Create": {
+        "message": "<em>Buat</em>: Olah kembali sebuah proyek dari galeri atau mulai dari awal. Sangat mudah untuk membuat meme kamu sendiri, album keluarga atau permainan petualangan yang-kamu-pilih-sendiri. Kemungkinannya tidak terbatas.",
+        "description": "Encouragement to Create with Webmaker"
+    },
+    "unsubscribe": {
+        "message": "Jika kamu tidak ingin menerima surel lagi dari Mozilla Webmaker, kamu bisa ubah <a href=\"https://login.webmaker.org/{{locale}}/account\">pengaturan surel</a>mu.",
+        "description": "Unsubscribe blurb"
+    },
+    "psFollowUs": {
+        "message": "N.B Ikuti kami di Twitter <a href=\"https://twitter.com/webmaker\">@webmaker</a> untuk mendapatkan berita terbaru dari aplikasi dan proyek pilihan — dan siapa tau, mungkin kreasimu yang akan kami bagikan selanjutnya!",
+        "description": "Post-script to say people should follow us and send us their projects to be featured"
+    },
+    "li3Share": {
+        "message": "<em>Bagikan</em>: Ketika mahakaryamu selesai, tunjukkan kepada teman-teman, keluarga atau komunitasmu. Sangat mudah untuk membagikannya di Web, lewat SMS atau media sosial favoritmu.",
+        "description": "Encouragement to Íahre with Webmaker"
+    }
+}

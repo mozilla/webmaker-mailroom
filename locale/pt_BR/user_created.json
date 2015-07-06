@@ -1,0 +1,42 @@
+{
+    "Welcome to Webmaker. Let's get you started.": {
+        "message": "Bem vindo ao Webmaker. Vamos começar.",
+        "description": "Email subject for user_created email"
+    },
+    "lastParagraph": {
+        "message": "Estou tão feliz que você tenha se juntado à comunidade Webmaker. Juntos, nós podemos construir uma Web aberta e feita para todos. Se você tem perguntas, fique a vontade para me mandar um <a href=\"mailto:help@webmaker.org\">e-mail</a> para mim ou tweetar para <a href=\"https://twitter.com/webmaker\">@webmaker</a>.",
+        "description": "Summary text saying we're glad the user joined"
+    },
+    "p2GetStarted": {
+        "message": "Aqui vão algumas das coisas legais que você pode fazer com o novo aplicativo do Webmaker:",
+        "description": "Welcome email start of list of things to do with Webmaker"
+    },
+    "li1Discover": {
+        "message": "<em>Descubra</em>: Explore o que seus companheiros criadores para a Web já criaram na galeria Descubra. Há álbuns, galerias de fotos, histórias em quadrinhos e mais, muito disso feito na sua comunidade local.",
+        "description": "Encouragement to Discover with Webmaker"
+    },
+    "p1WelcomeToMozillaWebmaker": {
+        "message": "Bem vindo ao Mozilla Webmaker! Obrigado por juntar-se a nós para descobrir, criar e compartilhar a Web. Estou ansioso para ver o que você cria.",
+        "description": "Welcome email intro paragraph"
+    },
+    "cheersWMCommunityMGR": {
+        "message": "Um abraço,<br>Bobby Richter<br>Gerente de comunidade do Webmaker<br>ᕕ( ᐛ)ᕗ",
+        "description": "Signature"
+    },
+    "li2Create": {
+        "message": "<em>Crie:</em>: Remixe um projeto da galeria ou comece um do zero. É fácil criar o seu próprio meme, álbum de família ou um jogo \"crie a sua própria aventura\". As possibilidades são infinitas.",
+        "description": "Encouragement to Create with Webmaker"
+    },
+    "unsubscribe": {
+        "message": "Se você não quer mais receber e-mail do Mozilla Webmaker, você pode mudar as suas <a href=\"https://login.webmaker.org/{{locale}}/account\">preferências de e-mail</a>.",
+        "description": "Unsubscribe blurb"
+    },
+    "psFollowUs": {
+        "message": "P.S. Siga a gente no Twitter <a href=\"https://twitter.com/webmaker\">@webmaker</a> para atualizações sobre o aplicativo e projetos em destaque — e quem sabe a sua própria criação será a próxima que vamos compartilhar com o mundo!",
+        "description": "Post-script to say people should follow us and send us their projects to be featured"
+    },
+    "li3Share": {
+        "message": "<em>Compartilhe</em>: Quando a sua obra prima estiver pronta, mostre-a para seus amigos, familiares ou a sua comunidade. É fácil compartilhar na Web, por SMS ou na sua rede social favorita.",
+        "description": "Encouragement to Íahre with Webmaker"
+    }
+}
