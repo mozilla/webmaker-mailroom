@@ -1,0 +1,42 @@
+{
+    "Welcome to Webmaker. Let's get you started.": {
+        "message": "ওয়েবমেকারে আপনাকে স্বাগতম। চলুন আরম্ভ করি।",
+        "description": "Email subject for user_created email"
+    },
+    "lastParagraph": {
+        "message": "আমি অত্যন্ত আনন্দিত যে আপনি ওয়েবমেকার কমিউনিটিতে যোগ দিয়েছেন। আমরা একসাথে তৈরি করতে পারি একটা মুক্ত ওয়েব যা হবে সবার জন্য। আপনার যদি কোন প্রশ্ন থাকে তাহলে দ্বিধাহীন ভাবে আমাকে <a href=\"mailto:help@webmaker.org\">ইমেইল</a> করতে পারেন কিংবা  <a href=\"https://twitter.com/webmaker\">@webmaker</a> এ টুইট করতে পারেন। ",
+        "description": "Summary text saying we're glad the user joined"
+    },
+    "p2GetStarted": {
+        "message": "এই নিন মজার কিছু জিনিস যা আপনি ওয়েবমেকার অ্যাপ দিয়ে তৈরী করতে পারবেন:",
+        "description": "Welcome email start of list of things to do with Webmaker"
+    },
+    "li1Discover": {
+        "message": "<em>Discover </em>: খুঁজে দেখুন আপনার প্রিয় ওয়েবমেকার Discover গ্যালারিতে কি কি তৈরি করেছে। এইখানে রয়েছে স্ক্র্যাপবুক, ছবির গ্যালারী, কমিকস সহ আরো অনেক কিছু যার অধিকাংশ আপনার লোকাল কমিউনিটির বানানো। ",
+        "description": "Encouragement to Discover with Webmaker"
+    },
+    "p1WelcomeToMozillaWebmaker": {
+        "message": "মজিলা ওয়েবমেকারে আপনাকে স্বাগতম! ওয়েবকে আবিষ্কার, তৈরি এবং শেয়ার করতে আমাদের সাথে যোগ দেওয়ার জন্য আপনাকে ধন্যবাদ। আপনি কি তৈরি করলেন তা দেখার অপেক্ষায় রয়েছি।",
+        "description": "Welcome email intro paragraph"
+    },
+    "cheersWMCommunityMGR": {
+        "message": "চীয়ার্স,<br>ববি রিচার<br>ওয়েব মেকার কমিউনিটি ম্যানেজার<br>ᕕ( ᐛ)ᕗ",
+        "description": "Signature"
+    },
+    "li2Create": {
+        "message": "<em>Create</em>: গ্যালারি থেকে একটা প্রজেক্ট নিয়ে রিমিক্স করতে পারেন কিংবা স্ক্র্যাচ থেকে শুরু করতে পারেন। খুব সহজের তৈরি করতে পারবেন আপনার নিজস্ব মেমে, পারিবারিক অ্যালবাম কিংবা বাছাই করতে পারেন আপনার নিজের তৈরি রোমাঞ্চকর খেলা। সম্ভাবনাগুলো সীমাহীন। ",
+        "description": "Encouragement to Create with Webmaker"
+    },
+    "unsubscribe": {
+        "message": "আপনি যদি মজিলা ওয়েবমেকারের কাছ হতে আর কোন ইমেইল পেতে না চান তবে আপনি আপনার <a href=\"https://login.webmaker.org/{{locale}}/account\">ইমেইলের প্রিফারেন্স</a> পরিবর্তন করতে পাড়েন।",
+        "description": "Unsubscribe blurb"
+    },
+    "psFollowUs": {
+        "message": "বি:দ্র: অ্যাপ ও ফিচার প্রজেক্টেরের হালনাগাদ তথ্যের জন্য আমাদের <a href=\"https://twitter.com/webmaker\">@webmaker</a> টুইটারে অনুসরণ করতে পারেন। কে জানে, আপনার তৈরি কর্মটি হয়ত আমরা পরবর্তীতে গোটা পৃথিবীর সামনে তুলে ধরতে পারি।",
+        "description": "Post-script to say people should follow us and send us their projects to be featured"
+    },
+    "li3Share": {
+        "message": "<em>Share</em>: আপনার  অসাধারণ কার্যটি যখন তৈরি হয়ে যাবে, আপনি তা দেখাতে পারেন আপনার বন্ধুদের কে, আপনার পরিবার কে কিংবা আপনার লোকাল কমিউনিটি কে। খুব সহজেই আপনি শেয়ার করতে পারবেন ওয়েবে, এসএমএস এর মাধ্যমে কিংবা আপনার প্রিয় সামাজিক যোগাযোগ মাধ্যমে।",
+        "description": "Encouragement to Íahre with Webmaker"
+    }
+}
