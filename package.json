@@ -14,7 +14,7 @@
   "license": "MPL 2.0",
   "dependencies": {
     "nunjucks": "1.0.5",
-    "webmaker-i18n": "0.3.26"
+    "webmaker-i18n": "0.3.27"
   },
   "devDependencies": {
     "express": "^4.4.1",
