@@ -32,7 +32,8 @@ module.exports = function (options) {
   i18n.middleware({
     supported_languages: ['*'],
     default_lang: DEFAULT_LANG,
-    translation_directory: path.resolve(__dirname, 'locale')
+    translation_directory: path.resolve(__dirname, 'locale'),
+    mappings: {'id-ID': 'id'}
   });
 
   var baseHtml = {
