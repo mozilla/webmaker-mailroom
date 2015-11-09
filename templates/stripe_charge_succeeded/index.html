@@ -1,0 +1,34 @@
+<body>
+  <p>{{name}} - just like you, thousands around the world are helping us continue
+  our mission to keep the Web open and free. Every gift is so important. On
+  behalf of all of us, thank you so much for your donation to Mozilla.</p>
+
+  <p>- The Mozilla Team</p>
+
+  <hr>
+
+  <p>TRANSACTION RECEIPT FOR YOUR RECORDS:</p>
+
+  <p>{{name}}<br>
+  {% if recurring_donation %} Monthly {% else %} One-time {% endif %}
+  gift amount: {{currency_symbol}}{{amount}} {{currency_code}}<br>
+  {{address}}<br>
+  {{city}} {{state}} {{zipcode}}<br>
+  {{country}}</p>
+
+  <p>Do you have a question? Most common questions are answered in our
+  <a href="https://wiki.mozilla.org/Donate">donor FAQ</a>.
+
+  <p>If you still need help, please send an email to us at
+  <a href="mailto:donate@mozilla.org">donate@mozilla.org</a>.
+  We get lots of email, but we will do our best to respond within 48 hours.</p>
+
+  <hr>
+
+  <p><em>Contributions go to the Mozilla Foundation, a 501(c)(3) organization, to be
+  used in its discretion for its charitable purposes. They are tax-deductible in
+  the U.S. to the fullest extent permitted by law. Mozilla did not provide any
+  goods or services in return for this donation.</em></p>
+
+  <p><em>Mozilla Foundation Tax ID 20-0097189</em></p>
+</body>
