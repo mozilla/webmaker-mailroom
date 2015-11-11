@@ -15,10 +15,8 @@ module.exports = {
       description: 'A donor donates $20 CAD one-time',
       data: {
         name: 'Jon Buckley',
-        amount: '20.00',
+        amount: 'CA$20',
         recurring_donation: false,
-        currency_symbol: '$',
-        currency_code: 'CAD',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
@@ -29,10 +27,8 @@ module.exports = {
       description: 'A donor donates $10 USD recurring',
       data: {
         name: 'Jon Buckley',
-        amount: '10.00',
+        amount: '$10',
         recurring_donation: true,
-        currency_symbol: '$',
-        currency_code: 'USD',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
