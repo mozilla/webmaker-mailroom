@@ -7,7 +7,12 @@ var mailer = require('../index.js')();
 function generateHtml(templateName, metaData) {
   var tests = metaData.tests;
   var emails = tests.map(function (test) {
-    var email = mailer.render(templateName, test.data, {partial: true});
+    var options = {
+      locale: test.locale,
+      partial: true
+    };
+
+    var email = mailer.render(templateName, test.data, options);
     email.test = test;
     return email;
   });

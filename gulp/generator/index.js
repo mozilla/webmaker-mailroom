@@ -12,6 +12,7 @@ module.exports = {
   // E.g. with a user name, without a username
   tests: [
     {
+      locale: 'en-US',
       description: 'a user creates an account',
       data: {
         username: 'samus'
