@@ -1,0 +1,13 @@
+{
+  "stripe_charge_succeeded_2014_subject": "Ihre Spende hilft uns bei der Entwicklung des Internets, das die Welt braucht.",
+  "dear_name": "Liebe(r) {{ name }},",
+  "first_paragraph_email": "Vielen Dank für Ihre Spende an Mozilla. Mit Ihrem Beitrag setzen wir unsere Mission zum Entwickeln und Schützen eines offenen Webs fort.",
+  "second_paragraph_email": "Wir glauben, dass das Internet nicht nur Technologie ist, sondern ein öffentliches Gut. Es ist eine gemeinsame Kraft für das Gute.",
+  "third_paragraph_email": "Nochmals vielen Dank für Ihre Unterstützung von Mozilla. Gemeinsam halten wir das Internet offen, zugänglich, transparent und sicher.",
+  "executive_director": "Geschäftsführer",
+  "here_is_record": "HIER IST EINE TRANSAKTIONSQUITTUNG FÜR IHRE UNTERLAGEN:",
+  "gift_amount": "Spendenbetrag: {{ amount }}",
+  "mozilla_contribution": "Die Spenden gehen an die Mozilla Foundation, eine 501(c)(3)-Organisation, und werden nach eigenem Ermessen für wohltätige Zwecke verwendet. Sie sind in den USA, soweit es gesetzlich zulässig ist, im vollsten Umfang steuerlich absetzbar.",
+  "more_info_about_page": "Weitere Informationen finden Sie auf der Seite „Über Mozilla“. (http://www.mozilla.org/about/)",
+  "mozilla_foundation_tax_id": "Steuernummer der Mozilla Foundation: 20-0097189"
+}
