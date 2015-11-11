@@ -1,6 +1,6 @@
 module.exports = {
   // Choose a human-readable name. This is just for rendering example pages.
-  name: 'Stripe Charge Succeeded',
+  name: 'Stripe Charge Succeeded (2015)',
 
   // Choose a good description; when is this email sent?
   description: 'Email sent after successfully processing a Stripe payment',
