@@ -1,0 +1,13 @@
+{
+  "stripe_charge_succeeded_2014_subject": "Díky vašemu příspěvku můžeme budovat takový internet, jaký svět potřebuje.",
+  "dear_name": "Milá nebo milý {{ name }},",
+  "first_paragraph_email": "Za váš dar Mozille vám velice děkujeme. Díky němu se můžeme i nadále věnovat našemu poslání budovat a chránit otevřený web.",
+  "second_paragraph_email": "Jsme přesvědčení, že internet není jen tak nějaká technologie – je to veřejný zdroj. Je to společná instituce měnící svět k lepšímu.",
+  "third_paragraph_email": "Ještě jednou vám děkujeme za všechno, co jste pro Mozillu udělali. Společně udržíme otevřený, přístupný, transparentní a bezpečný internet.",
+  "executive_director": "Výkonný ředitel",
+  "here_is_record": "NÁSLEDUJÍ INFORMACE O PLATEBNÍ TRANSAKCI:",
+  "gift_amount": "Výše příspěvku: {{ amount }}",
+  "mozilla_contribution": "Příspěvky putují na účet neziskové organizace Mozilla Foundation, podle 501(c)(3), a dle uvážení budou použity pro dobročinné účely. Příspěvky jsou dle daňového systému USA odečitatelné z daní v plném rozsahu povoleném zákonem. Mozilla za příspěvek neposkytuje žádné zboží ani služby.",
+  "more_info_about_page": "Další informace najdete na stránce „Seznamte se s Mozillou“ (http://www.mozilla.org/about/).",
+  "mozilla_foundation_tax_id": "Mozilla Foundation má daňové identifikační číslo 20-0097189"
+}
