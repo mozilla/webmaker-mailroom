@@ -30,6 +30,7 @@ module.exports = {
       data: {
         name: 'es donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
