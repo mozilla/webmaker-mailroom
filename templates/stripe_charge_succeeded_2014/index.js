@@ -17,6 +17,7 @@ module.exports = {
       data: {
         name: 'cs donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
@@ -29,6 +30,7 @@ module.exports = {
       data: {
         name: 'es donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
@@ -41,6 +43,7 @@ module.exports = {
       data: {
         name: 'fr donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
@@ -65,6 +68,7 @@ module.exports = {
       data: {
         name: 'it donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
@@ -89,6 +93,7 @@ module.exports = {
       data: {
         name: 'pt_BR donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
@@ -137,6 +142,7 @@ module.exports = {
       data: {
         name: 'zh_CN donor',
         amount: '$10',
+        transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
         city: 'Toronto',
         state: 'ON',
