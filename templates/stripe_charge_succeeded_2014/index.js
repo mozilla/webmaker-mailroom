@@ -12,6 +12,19 @@ module.exports = {
   // E.g. with a user name, without a username
   tests: [
     {
+      locale: 'az',
+      description: 'A az donor donates $10 USD',
+      data: {
+        name: 'az donor',
+        amount: '$10',
+        transaction_id: 'ch_fakeid',
+        address: '366 Adelaide St W',
+        city: 'Toronto',
+        state: 'ON',
+        zipcode: 'M5V 1R9',
+        country: 'Canada'
+      }
+    }, {
       locale: 'cs',
       description: 'A cs donor donates $10 USD',
       data: {
