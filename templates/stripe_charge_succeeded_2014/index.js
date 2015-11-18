@@ -89,10 +89,10 @@ module.exports = {
         country: 'Canada'
       }
     }, {
-      locale: 'pt_BR',
-      description: 'A pt_BR donor donates $10 USD',
+      locale: 'pt-BR',
+      description: 'A pt-BR donor donates $10 USD',
       data: {
-        name: 'pt_BR donor',
+        name: 'pt-BR donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
@@ -102,10 +102,10 @@ module.exports = {
         country: 'Canada'
       }
     }, {
-      locale: 'pt_PT',
-      description: 'A pt_PT donor donates $10 USD',
+      locale: 'pt-PT',
+      description: 'A pt-PT donor donates $10 USD',
       data: {
-        name: 'pt_PT donor',
+        name: 'pt-PT donor',
         amount: '$10',
         address: '366 Adelaide St W',
         city: 'Toronto',
@@ -139,10 +139,10 @@ module.exports = {
         country: 'Canada'
       }
     }, {
-      locale: 'zh_CN',
-      description: 'A zh_CN donor donates $10 USD',
+      locale: 'zh-CN',
+      description: 'A zh-CN donor donates $10 USD',
       data: {
-        name: 'zh_CN donor',
+        name: 'zh-CN donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
         address: '366 Adelaide St W',
@@ -152,10 +152,10 @@ module.exports = {
         country: 'Canada'
       }
     }, {
-      locale: 'zh_TW',
-      description: 'A zh_TW donor donates $10 USD',
+      locale: 'zh-TW',
+      description: 'A zh-TW donor donates $10 USD',
       data: {
-        name: 'zh_TW donor',
+        name: 'zh-TW donor',
         amount: '$10',
         address: '366 Adelaide St W',
         city: 'Toronto',
