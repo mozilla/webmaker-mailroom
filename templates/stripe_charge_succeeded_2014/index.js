@@ -51,18 +51,6 @@ module.exports = {
         country: 'Canada'
       }
     }, {
-      locale: 'id',
-      description: 'An id donor donates $10 USD',
-      data: {
-        name: 'id donor',
-        amount: '$10',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
-      }
-    }, {
       locale: 'it',
       description: 'An it donor donates $10 USD',
       data: {
