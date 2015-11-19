@@ -25,6 +25,19 @@ module.exports = {
         country: 'Canada'
       }
     }, {
+      locale: 'ca',
+      description: 'A ca donor donates $10 USD',
+      data: {
+        name: 'ca donor',
+        amount: '$10',
+        transaction_id: 'ch_fakeid',
+        address: '366 Adelaide St W',
+        city: 'Toronto',
+        state: 'ON',
+        zipcode: 'M5V 1R9',
+        country: 'Canada'
+      }
+    }, {
       locale: 'cs',
       description: 'A cs donor donates $10 USD',
       data: {
