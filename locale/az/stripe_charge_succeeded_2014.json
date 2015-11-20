@@ -1,6 +1,6 @@
 {
   "stripe_charge_succeeded_2014_subject": "Hədiyyəniz dünyanın ehtiyyacı olan interneti inşa etməyimizə kömək edir.",
-  "dear_name": "Hörmətli {{ firstname }},",
+  "dear_name": "Hörmətli {{ name }},",
   "first_paragraph_email": "Mozillaya etdiyiniz ianə üçün çox təşəkkürlər. Hədiyyənizlə açıq web-i inşa etmə missiyamıza davam edəcik.",
   "second_paragraph_email": "Biz web-in texnologiyadan daha irəlidə olduğunu düşünürük; Bu ictimai vəsaitdir. Bu yaxşılıq üçün paylaşılmış gücdür.",
   "third_paragraph_email": "Mozillanı dəstəkləmək üçün etdiyiniz hər şey üçün təşəkkürlər. Birlikdə interneti açıq, əlçatan, şəffaf və təhlükəsiz tutacıq.",
