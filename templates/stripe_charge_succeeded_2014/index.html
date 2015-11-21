@@ -23,6 +23,9 @@
   {{city}} {{state}} {{zipcode}}<br>
   {{country}}</p>
 
+  {% if recurring_donation %}
+    <p>{{ 'cancel_recurring_donation_email' | gettext }}</p>
+  {% endif %}
   <hr>
 
   <p><em>{{ 'mozilla_contribution' | gettext }}</em></p>

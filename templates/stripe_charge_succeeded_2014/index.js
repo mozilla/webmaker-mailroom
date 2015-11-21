@@ -202,7 +202,8 @@ module.exports = {
         city: 'Toronto',
         state: 'ON',
         zipcode: 'M5V 1R9',
-        country: 'Canada'
+        country: 'Canada',
+        recurring_donation: true
       }
     }, {
       locale: 'de',
@@ -214,7 +215,8 @@ module.exports = {
         address: 'Voltastraße 5, Haus 10, Treppe 6',
         city: 'Berlin',
         zipcode: '13355',
-        country: 'Germany'
+        country: 'Germany',
+        recurring_donation: true
       }
     }
   ]
