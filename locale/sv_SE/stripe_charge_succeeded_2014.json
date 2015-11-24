@@ -1,0 +1,15 @@
+{
+  "stripe_charge_succeeded_2014_subject": "Din gåva hjälper oss att bygga det internet världen behöver.",
+  "dear_name": "Kära {{ name }},",
+  "first_paragraph_email": "Tack så mycket för din donation till Mozilla. Med din gåva, kommer vi att fortsätta vårt uppdrag att bygga och skydda ett öppet internet.",
+  "second_paragraph_email": "Vi tror att internet är mer än en teknik; Det är en allmän resurs. Det är en gemensam kraft för det goda.",
+  "third_paragraph_email": "Tack igen för allt du gör för att stödja Mozilla. Tillsammans kommer vi att hålla Internet öppet, tillgängligt och tryggt.",
+  "executive_director": "Verkställande direktör",
+  "here_is_record": "HÄR ÄR ETT TRANSAKTIONSKVITTO FÖR EGET BRUK:",
+  "gift_amount": "Belopp som gåva: {{ amount }}",
+  "transaction_id": "Transaktions-ID: {{ transaction_id }}",
+  "cancel_recurring_donation_email": "Om du vill avbryta din återkommande donation, skicka din förfrågan via e-post till donate@mozilla.org.",
+  "mozilla_contribution": "Bidrag går till stiftelsen Mozilla, en 501(c)(3) organisation, att användas i eget gottfinnande för sina välgörande ändamål. De är avdragsgilla i USA i den utsträckning som lagen tillåter. Mozilla har inte lämnat några varor eller tjänster i utbyte mot denna donation.",
+  "more_info_about_page": "Mer information finns på sidan. (den http://www.mozilla.org/about/)",
+  "mozilla_foundation_tax_id": "Stiftelsen Mozilla skatt-ID 20-0097189"
+}
