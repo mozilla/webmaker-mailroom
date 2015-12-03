@@ -9,10 +9,12 @@
 
   <p>TRANSACTION RECEIPT FOR YOUR RECORDS:</p>
 
-  <p>{{name}}<br>
-  {% if recurring_donation %} Monthly {% else %} One-time {% endif %}
+  <p>{% if recurring_donation %} Monthly {% else %} One-time {% endif %}
   gift amount: {{amount}}<br>
   Transaction ID: {{transaction_id}}<br>
+  {{timestamp}}</p>
+
+  <p>{{name}}<br>
   {{address}}<br>
   {{city}} {{state}} {{zipcode}}<br>
   {{country}}</p>
