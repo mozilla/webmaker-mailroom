@@ -15,211 +15,121 @@ module.exports = {
       locale: 'az',
       description: 'A az donor donates $10 USD',
       data: {
-        name: 'az donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'ca',
       description: 'A ca donor donates $10 USD',
       data: {
-        name: 'ca donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'cs',
       description: 'A cs donor donates $10 USD',
       data: {
-        name: 'cs donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'es',
       description: 'An es donor donates $10 USD',
       data: {
-        name: 'es donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'fr',
       description: 'A fr donor donates $10 USD',
       data: {
-        name: 'fr donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'it',
       description: 'An it donor donates $10 USD',
       data: {
-        name: 'it donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'ko',
       description: 'A ko donor donates $10 USD',
       data: {
-        name: 'ko donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'nl',
       description: 'A nl donor donates $10 USD',
       data: {
-        name: 'nl donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'pt-BR',
       description: 'A pt-BR donor donates $10 USD',
       data: {
-        name: 'pt-BR donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'pt-PT',
       description: 'A pt-PT donor donates $10 USD',
       data: {
-        name: 'pt-PT donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'ro',
       description: 'A ro donor donates $10 USD',
       data: {
-        name: 'ro donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'sq',
       description: 'A sq donor donates $10 USD',
       data: {
-        name: 'sq donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'zh-CN',
       description: 'A zh-CN donor donates $10 USD',
       data: {
-        name: 'zh-CN donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'zh-TW',
       description: 'A zh-TW donor donates $10 USD',
       data: {
-        name: 'zh-TW donor',
         amount: '$10',
         transaction_id: 'ch_fakeid',
-        timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada'
+        timestamp: '2015-11-09T21:01:13.000Z'
       }
     }, {
       locale: 'en-US',
       description: 'An en-US donor donates $10 USD',
       data: {
-        name: 'Jon Buckley',
         amount: '$10',
         transaction_id: 'ch_fakeid',
         timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada',
         recurring_donation: false,
         livemode: true
       }
@@ -227,14 +137,9 @@ module.exports = {
       locale: 'de',
       description: 'A de donor donates €10 EUR',
       data: {
-        name: 'Jon Buckley',
         amount: '€10',
         transaction_id: 'ch_fakeid',
         timestamp: '2015-11-09T21:01:13.000Z',
-        address: 'Voltastraße 5, Haus 10, Treppe 6',
-        city: 'Berlin',
-        zipcode: '13355',
-        country: 'Germany',
         recurring_donation: true,
         livemode: true
       }

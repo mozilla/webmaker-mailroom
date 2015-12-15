@@ -1,6 +1,4 @@
 <body>
-  <p>{{ 'dear_name' | gettext | instantiate }}</p>
-
   <p>{{ 'first_paragraph_email' | gettext }}</p>
 
   <p>{{ 'second_paragraph_email' | gettext }}</p>
@@ -17,12 +15,7 @@
 
   <p>{{ 'gift_amount' | gettext | instantiate }}<br>
   {{ 'transaction_id' | gettext | instantiate }}<br>
-  {{timestamp}}</p>
-
-  <p>{{name}}<br>
-  {{address}}<br>
-  {{city}} {{state}} {{zipcode}}<br>
-  {{country}}</p>
+  {{ timestamp }}</p>
 
   {% if recurring_donation %}
     <p>{{ 'cancel_recurring_donation_email' | gettext }}</p>

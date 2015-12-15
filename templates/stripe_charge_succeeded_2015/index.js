@@ -14,31 +14,19 @@ module.exports = {
     {
       description: 'A donor donates $20 CAD one-time',
       data: {
-        name: 'Jon Buckley',
         amount: 'CA$20',
         recurring_donation: false,
         transaction_id: 'ch_fakeid',
         timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada',
         livemode: true
       }
     }, {
       description: 'A donor donates $10 USD recurring',
       data: {
-        name: 'Jon Buckley',
         amount: '$10',
         recurring_donation: true,
         transaction_id: 'ch_fakeid',
         timestamp: '2015-11-09T21:01:13.000Z',
-        address: '366 Adelaide St W',
-        city: 'Toronto',
-        state: 'ON',
-        zipcode: 'M5V 1R9',
-        country: 'Canada',
         livemode: false
       }
     }
