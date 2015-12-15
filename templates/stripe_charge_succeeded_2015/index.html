@@ -29,6 +29,7 @@
   {% if recurring_donation %}
     <p>If you would like to cancel your recurring donation, send your request in an email to donate@mozilla.org.</p>
   {% endif %}
+  {% if livemode %}
   <hr>
 
   <p><em>Contributions go to the Mozilla Foundation, a 501(c)(3) organization, to be
@@ -37,4 +38,5 @@
   goods or services in return for this donation.</em></p>
 
   <p><em>Mozilla Foundation Tax ID 20-0097189</em></p>
+  {% endif %}
 </body>

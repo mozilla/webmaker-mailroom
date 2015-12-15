@@ -27,6 +27,7 @@
   {% if recurring_donation %}
     <p>{{ 'cancel_recurring_donation_email' | gettext }}</p>
   {% endif %}
+  {% if livemode %}
   <hr>
 
   <p><em>{{ 'mozilla_contribution' | gettext }}</em></p>
@@ -34,4 +35,5 @@
   <p><em>{{ 'more_info_about_page' | gettext }}</em></p>
 
   <p><em>{{ 'mozilla_foundation_tax_id' | gettext }}</em></p>
+  {% endif %}
 </body>

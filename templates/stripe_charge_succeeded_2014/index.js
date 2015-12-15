@@ -220,7 +220,8 @@ module.exports = {
         state: 'ON',
         zipcode: 'M5V 1R9',
         country: 'Canada',
-        recurring_donation: true
+        recurring_donation: false,
+        livemode: true
       }
     }, {
       locale: 'de',
@@ -234,7 +235,8 @@ module.exports = {
         city: 'Berlin',
         zipcode: '13355',
         country: 'Germany',
-        recurring_donation: true
+        recurring_donation: true,
+        livemode: true
       }
     }
   ]

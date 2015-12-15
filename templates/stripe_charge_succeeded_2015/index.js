@@ -23,7 +23,8 @@ module.exports = {
         city: 'Toronto',
         state: 'ON',
         zipcode: 'M5V 1R9',
-        country: 'Canada'
+        country: 'Canada',
+        livemode: true
       }
     }, {
       description: 'A donor donates $10 USD recurring',
@@ -37,7 +38,8 @@ module.exports = {
         city: 'Toronto',
         state: 'ON',
         zipcode: 'M5V 1R9',
-        country: 'Canada'
+        country: 'Canada',
+        livemode: false
       }
     }
   ]
