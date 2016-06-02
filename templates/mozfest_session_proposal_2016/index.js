@@ -6,7 +6,7 @@ module.exports = {
   description: 'When someone submits a session proposal on the Mozilla Festival website',
 
   // Choose a subject for your email
-  subject: 'Your 2016 Mozilla Festival Proposal',
+  subject: 'Your 2016 MozFest Proposal',
 
   // Create a test case for every possible version of the email,
   // E.g. with a user name, without a username
