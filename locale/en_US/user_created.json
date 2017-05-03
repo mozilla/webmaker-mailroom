@@ -1,42 +1,49 @@
 {
-  "Welcome to Webmaker. Let's get you started.": {
-    "message": "Welcome to Webmaker. Let's get you started.",
+  "Welcome from Mozilla. Let's get you started.": {
+    "message": "Welcome from Mozilla. Let's get you started.",
     "description": "Email subject for user_created email"
   },
-  "p1WelcomeToMozillaWebmaker": {
-    "message": "Welcome to Mozilla Webmaker! Thank you for joining us to discover, create and share the Web. I'm looking forward to seeing what you create.",
+  "hiNewUser": {
+    "message": "Hi, {{ username if username else \"there\" }}!"
+  },
+  "welcomeMozillaTools": {
+    "message": "You just created an account that gives you access to the following Mozilla tools:",
     "description": "Welcome email intro paragraph"
   },
-  "p2GetStarted": {
-    "message": "Here are some of the fun things you can do with the new Webmaker app:",
-    "description": "Welcome email start of list of things to do with Webmaker"
+  "mozillaToolsThimble": {
+    "message": "<a href=\"https://thimble.mozilla.org/\">Thimble</a> - Create your own web page with this online code editor",
+    "description": "Description of Thimble"
   },
-  "li1Discover": {
-    "message": "<em>Discover</em>: Explore what your fellow Webmakers have already created in the Discover gallery. There are scrapbooks, photo galleries, comics and more, much of it made in your local community.",
-    "description": "Encouragement to Discover with Webmaker"
+  "mozillaToolsGoggles": {
+    "message": "<a href=\"https://goggles.mozilla.org/\">X-Ray Goggles</a> - Remix any page on the web",
+    "description": "Description of X-Ray Goggles"
   },
-  "li2Create": {
-    "message": "<em>Create</em>: Remix a project from the gallery or start from scratch. It's easy to create your own meme, family album or choose-your-own adventure game. The possibilities are endless.",
-    "description": "Encouragement to Create with Webmaker"
+  "mozillaToolsWebmaker": {
+    "message": "<a href=\"https://webmaker.org/\">Webmaker App</a> - Capture, collect & share with your friends",
+    "description": "Description of the Webmaker App"
   },
-  "li3Share": {
-    "message": "<em>Share</em>: When your new masterpiece is finished, show it off to your friends, family or community. It's easy to share on the Web, via SMS or your favorite social network.",
-    "description": "Encouragement to Íahre with Webmaker"
+  "mozillaLearningNetworkIntro": {
+    "message": "You can also sign in to the <a href=\"https://learning.mozilla.org\">Mozilla Learning Network</a>, where you can learn about the Mozilla Foundation’s work to promote web literacy and digital inclusion.",
+    "description": "Description of the Mozilla Learning Network"
   },
-  "lastParagraph": {
-    "message": "I'm so glad you've joined the Webmaker community. Together, we can build a Web that's open and made for everyone. If you have questions, feel free to <a href=\"mailto:help@webmaker.org\">email</a> me or tweet <a href=\"https://twitter.com/webmaker\">@webmaker</a>.",
-    "description": "Summary text saying we're glad the user joined"
+  "stayInTouchHeader": {
+    "message": "To stay in touch:",
+    "description": "Heading for ways to stay in touch"
   },
-  "cheersWMCommunityMGR": {
-    "message": "Cheers,<br>Bobby Richter<br>Webmaker Community Manager<br>ᕕ( ᐛ)ᕗ",
-    "description": "Signature"
+  "stayInTouchTwitter": {
+    "message": "Follow us on Twitter at <a href=\"https://twitter.com/mozilla\">@mozilla</a> for updates",
+    "description": "Twitter account information"
   },
-  "psFollowUs": {
-    "message": "P.S. Follow us on Twitter <a href=\"https://twitter.com/webmaker\">@webmaker</a> for updates on the app and featured projects — and who knows, maybe your creation will be the next one we share with the world!",
-    "description": "Post-script to say people should follow us and send us their projects to be featured"
+  "stayInTouchThimble": {
+    "message": "For Thimble questions or support, email us at <a href=\"mailto:thimble@mozillafoundation.org\">thimble@mozillafoundation.org</a>",
+    "description": "Thimble support email information"
   },
-  "unsubscribe": {
-    "message": "If you do not wish to receive any more emails from Mozilla Webmaker, you can change your <a href=\"https://login.webmaker.org/{{locale}}/account\">email preferences</a>.",
+  "closingParagraph": {
+    "message": "We’re glad to have you here, <br>The Mozilla Foundation Team",
+    "description": "Closing paragraph in the email"
+  },
+  "emailPreferences": {
+    "message": "Don’t want any more emails related to this account? You can change your <a href=\"https://login.webmaker.org/{{locale}}/account\">email preferences</a>.",
     "description": "Unsubscribe blurb"
   }
 }

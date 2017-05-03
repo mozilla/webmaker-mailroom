@@ -1,25 +1,26 @@
 <body>
-  <p>{{ 'hi_username_or_there' | gettext | instantiate }}</p>
+  <p>{{ 'hiNewUser' | gettext | instantiate }}</p>
 
-  <p>{{ 'p1WelcomeToMozillaWebmaker' | gettext }}</p>
-
-  <p>{{ 'p2GetStarted' | gettext }}</p>
+  <p>{{ 'welcomeMozillaTools' | gettext }}</p>
 
   <ul>
-    <li>{{ 'li1Discover' | gettext | instantiate | safe }}</li>
-
-    <li>{{ 'li2Create' | gettext | instantiate | safe }}</li>
-
-    <li>{{ 'li3Share' | gettext | instantiate | safe }}</li>
+    <li>{{ 'mozillaToolsThimble' | gettext | safe }}</li>
+    <li>{{ 'mozillaToolsGoggles' | gettext | safe }}</li>
+    <li>{{ 'mozillaToolsWebmaker' | gettext | safe }}</li>
   </ul>
 
-  <p>{{ 'lastParagraph' | gettext | instantiate | safe }}</p>
+  <p>{{ 'mozillaLearningNetworkIntro' | gettext | safe }}</p>
 
-  <p>{{ 'cheersWMCommunityMGR' | gettext | safe }}</p>
+  <p>{{ 'stayInTouchHeader' | gettext | safe }}</p>
 
-  <p>{{ 'psFollowUs' | gettext | safe }}</p>
+  <ul>
+    <li>{{ 'stayInTouchTwitter' | gettext | safe }}</li>
+    <li>{{ 'stayInTouchThimble' | gettext | safe }}</li>
+  </ul>
 
-  <p>******************************************************************</p>
+  <p>{{ 'closingParagraph' | gettext | safe }}</p>
 
-  <p class="unsubscribe">{{ 'unsubscribe' | gettext | instantiate | safe }}</p>
+  <p>*****</p>
+
+  <p class="unsubscribe">{{ 'emailPreferences' | gettext | instantiate | safe }}</p>
 </body>
