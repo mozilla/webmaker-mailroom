@@ -7,7 +7,7 @@
     "message": "Hi, {{ username if username else \"there\" }}!"
   },
   "welcomeMozillaTools": {
-    "message": "You just created an account that gives you access to the following Mozilla tools:",
+    "message": "You just created an account that gives you access to these great Mozilla tools:",
     "description": "Welcome email intro paragraph"
   },
   "mozillaToolsThimble": {
@@ -17,10 +17,6 @@
   "mozillaToolsGoggles": {
     "message": "<a href=\"https://goggles.mozilla.org/\">X-Ray Goggles</a> - Remix any page on the web",
     "description": "Description of X-Ray Goggles"
-  },
-  "mozillaToolsWebmaker": {
-    "message": "<a href=\"https://webmaker.org/\">Webmaker App</a> - Capture, collect & share with your friends",
-    "description": "Description of the Webmaker App"
   },
   "mozillaLearningNetworkIntro": {
     "message": "You can also sign in to the <a href=\"https://learning.mozilla.org\">Mozilla Learning Network</a>, where you can learn about the Mozilla Foundation’s work to promote web literacy and digital inclusion.",
