@@ -1,0 +1,12 @@
+{
+  "email_subject": "Ihr Vorschlag für eine MozFest-Veranstaltung",
+  "hi": "Guten Tag {{first_name}},",
+  "thank_you": "danke für Ihren Vorschlag für eine Veranstaltung beim MozFest!",
+  "session_curation_process": "Unser Verwaltungsprozess für Veranstaltungen findet auf GitHub im Verzeichnis „<a href=\"https://github.com/MozillaFoundation/mozfest-program-2017\">MozFest 2017 Program</a>“ statt. Die Verwaltung beginnt im August, wenn der Zeitrahmen für Vorschläge endet. Im September wird Ihnen mitgeteilt, ob Ihre Veranstaltung angenommen oder nicht angenommen wurde.",
+  "your_session": "Ihre Veranstaltung wird in diesem Bericht dokumentiert: <a href=\"{{ github_issue_url }}\">{{ github_issue_title }}</a>",
+  "follow_curation": "Wir empfehlen Ihnen, den Verwaltungsprozess zu verfolgen. Sie können mit Space Wranglers (die die Veranstaltungen für jeden MozFest-Ort verwalten) chatten, Fragen stellen und Ihre Veranstaltung mit einem Netzwerk von Mitwirkenden im Kommentarbereich Ihres Berichts entwickeln.",
+  "github_video": "Wenn Sie bei GitHub neu sind, zeigt Ihnen <a href=\"https://egghead.io/lessons/javascript-introduction-to-github\">dieses 45-sekündige Video</a>, wie Sie sich für ein kostenloses Benutzerkonto registrieren.",
+  "reach_out": "Fragen? Bitte melden Sie sich bei <a href=\"mailto:festival@mozilla.org\">festival@mozilla.org</a>",
+  "best_from_team": "Beste Grüße,<br />Das MozFest-Team",
+  "ps": "PS: Die MozFest-Verwaltung findet öffentlich statt. Daher sind einige Daten wie Ihr Name und Details zu Ihrer Veranstaltung in <a href=\"{{ github_issue_url }}\">Ihrem GitHub-Bericht einsehbar</a>. Wenn diese Informationen aus Datenschutzgründen entfernt werden sollen, melden Sie sich bitte unter <a href=\"mailto:festival@mozilla.org\">festival@mozilla.org</a>"
+}

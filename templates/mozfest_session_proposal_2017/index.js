@@ -1,12 +1,12 @@
 module.exports = {
   // Choose a human-readable name. This is just for rendering example pages.
-  name: '2017 Mozilla Festival Session Proposal (English)',
+  name: '2017 Mozilla Festival Session Proposal',
 
   // Choose a good description; when is this email sent?
   description: 'When someone submits a session proposal on the Mozilla Festival website',
 
   // Choose a subject for your email
-  subject: 'Your MozFest session proposal',
+  subject: 'email_subject',
 
   // Create a test case for every possible version of the email,
   // E.g. with a user name, without a username
