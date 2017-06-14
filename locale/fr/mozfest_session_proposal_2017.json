@@ -1,0 +1,12 @@
+{
+  "email_subject": "Votre proposition de session au MozFest",
+  "hi": "Bonjour {{first_name}},",
+  "thank_you": "Merci beaucoup d’avoir proposé une session pour le MozFest&nbsp;!",
+  "session_curation_process": "Notre processus de sélection se déroule sur GitHub dans le dépôt « <a href=\"https://github.com/MozillaFoundation/mozfest-program-2017\">MozFest 2017 Program</a> ». La sélection aura lieu en août lorsque l’appel à proposition sera terminé. Courant septembre, vous serez averti·e si votre session a été retenue ou non.",
+  "your_session": "Votre session est enregistrée dans ce ticket : <a href=\"{{ github_issue_url }}\">{{ github_issue_title }}</a>",
+  "follow_curation": "Nous vous encourageons à suivre le processus de sélection. Vous pouvez discuter avec les Space Wranglers (les personnes qui choisissent les sessions pour chaque espace), poser des questions ou développer votre proposition avec un réseau de collaborateurs dans les commentaires du ticket.",
+  "github_video": "Si vous n’avez pas l’habitude d’utiliser GitHub, <a href=\"https://egghead.io/lessons/javascript-introduction-to-github\">cette vidéo de 45 secondes</a> vous montrera comment créer un compte gratuit.",
+  "reach_out": "Vous avez des questions ? Contactez-nous via <a href=\"mailto:festival@mozilla.org\">festival@mozilla.org</a>",
+  "best_from_team": "Salutations,<br />L’équipe organisatrice du MozFest",
+  "ps": "P.S. — Le processus de sélection du MozFest se déroule de façon ouverte. Cela signifie que certaines informations telles que votre nom ou les détails de la session que vous proposez, sont visibles sur <a href=\"{{ github_issue_url }}\">le ticket GitHub</a>. Si vous désirez que ces informations soient supprimées pour des raisons de confidentialité, veuillez nous contacter via <a href=\"mailto:festival@mozilla.org\">festival@mozilla.org</a>"
+}
