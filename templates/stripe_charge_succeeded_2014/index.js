@@ -7,6 +7,7 @@ module.exports = {
 
   // Choose a subject for your email
   subject: 'stripe_charge_succeeded_2014_subject',
+  recurringSubject: 'stripe_charge_succeeded_2014_recurring_subject',
 
   // Create a test case for every possible version of the email,
   // E.g. with a user name, without a username

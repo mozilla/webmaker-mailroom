@@ -1,5 +1,6 @@
 {
   "stripe_charge_succeeded_2014_subject": "Your gift helps us build the Internet the world needs.",
+  "stripe_charge_succeeded_2014_recurring_subject": "Thank you for your recurring donation to Mozilla.",
   "dear_name": "Dear {{ name }},",
   "first_paragraph_email": "Thank you so much for your donation to Mozilla. With your gift, we'll continue our mission to build and protect an open web.",
   "second_paragraph_email": "We believe the Internet is more than a technology; it's a public resource. It's a shared force for good.",
