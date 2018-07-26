@@ -6,7 +6,7 @@ module.exports = {
   description: 'Email sent after successfully processing a Stripe payment',
 
   // Choose a subject for your email
-  subject: 'stripe_charge_succeeded_2014_subject',
+  subject: 'your_gift_help_us',
   recurringSubject: 'stripe_charge_succeeded_2014_recurring_subject',
 
   // Create a test case for every possible version of the email,
