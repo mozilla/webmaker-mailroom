@@ -1,15 +1,1 @@
-{
-  "stripe_charge_succeeded_2014_subject": "您的捐款，讓我們可以打造符合這個世界所需的網際網路。",
-  "dear_name": "親愛的{{ name }}：",
-  "first_paragraph_email": "非常感謝您對 Mozilla 的捐款。透過您的捐款，我們才能夠繼續打造與保護開放網路環境的使命。",
-  "second_paragraph_email": "我們相信，網際網路不只是一堆技術，而應該是一個公眾資源，是大家為了做好事結合而成的力量。",
-  "third_paragraph_email": "再次感謝您對 Mozilla 的支持與愛護，讓我們一起保持網際網路開放、可被任何人使用、透明與安全。",
-  "executive_director": "執行總監",
-  "here_is_record": "以下是交易明細，供您參考：",
-  "gift_amount": "捐款金額：{{ amount }}",
-  "transaction_id": "交易 ID: {{ transaction_id }}",
-  "cancel_recurring_donation_email": "若您想要取消持續捐款，請寄信到 donate@mozilla.org 告訴我們。",
-  "mozilla_contribution": "Mozilla Foundation 是一個依照美國稅法 501(c)(3) 條款登記的組織。對 Mozilla Foundation 的捐款，將可由其依照慈善目的自由運用，捐款人亦可依照美國法律抵稅。Mozilla 並未對此捐款提供任何服務或貨品作為回報。",
-  "more_info_about_page": "若需更多資訊，請參考我們的「關於」頁面：http://www.mozilla.org/about/",
-  "mozilla_foundation_tax_id": "Mozilla Foundation 美國稅務編號：20-0097189"
-}
+{"we_are_not_here_for_low_risk":"我們不是在這裡尋求低風險、低報酬，而是要改變整個網際網路的生態。","second_paragraph_email":"我們相信，網際網路不只是一堆技術，而應該是一個公眾資源，是大家為了做好事結合而成的力量。","cancel_recurring_donation_email":"若您想要取消持續捐款，請寄信到 donate@mozilla.org 告訴我們。","we_are_global_community":"我們是一個一同努力，保持網際網路的生態，可由任何人使用的全球社群。","mozilla_foundation":"Mozilla Foundation","tb_first_paragraph":"Thunderbird 是業界領先的開放原始碼跨平台郵件與行事曆軟體。透過捐款，您將可幫助計畫的發展，並幫助確保 Thunderbird 保持自由開放。每筆捐款都相當重要，謹代表專案的所有成員感謝您對 Mozilla Thunderbird 捐款。","tb_monthly_gift":"每月捐款金額:","more_info_about_page":"若需更多資訊，請參考我們的「關於」頁面：http://www.mozilla.org/about/","stripe_charge_succeeded_2014_recurring_subject":"感謝您提供定期捐款給 Mozilla。","dear_name":"親愛的%%firstname%%：","first_paragraph_email":"非常感謝您對 Mozilla 的捐款。透過您的捐款，我們才能夠繼續打造與保護開放網路環境的使命。","gift_amount":"捐款金額：%%amount_formatted%%","tb_footprints":"Mozilla Foundation 是依照美國稅法 501(c)(3) 條款註冊的組織。這筆捐款，將會用於支持 Thunderbird 的運作。捐款人亦可依美國法律規定，扣抵美國國內稅款。Mozilla 並未對此捐款提供任何服務或貨品作為回報。","mozilla_foundation_tax_id":"Mozilla Foundation 美國稅務編號：20-0097189","tb_question_faq":"有問題嗎？請參考我們的\u003ca href\u003d\"https://donate.mozilla.org/thunderbird/faq/\"\u003e捐款人常見問題\u003c/a\u003e。","tb_need_help":"若您還需要幫助，請寄信到 \u003ca href\u003d\"mailto:thunderbird-donate@mozilla.org\"\u003ethunderbird-donate@mozilla.org\u003c/a\u003e 給我們。我們平時就會收到大量郵件，但會盡力於 48 小時內回覆您的疑問。","executive_director":"執行總監","tb_one_time_gift":"單次捐款金額:","tb_transaction_receipt":"交易明細，供您參考:","tb_subject_one_time":"感謝您送給 Mozilla Thunderbird 的禮物","tb_signature":"- Thunderbird 團隊","transaction_id":"交易 ID: %%transaction_id%%","third_paragraph_email":"再次感謝您對 Mozilla 的支持與愛護，讓我們一起保持網際網路開放、可被任何人使用、透明與安全。","tb_subject_monthly":"感謝您持續捐款給 Mozilla Thunderbird","your_gift_help_us":"您的捐款，讓我們可以打造符合這個世界所需的網際網路。","here_is_record":"以下是交易明細，供您參考：","mozilla_contribution":"Mozilla Foundation 是依照美國稅法 501(c)(3) 條款註冊的組織。對 Mozilla Foundation 的捐款，將可由其依照慈善目的自由運用，捐款人亦可依美國法律規定，抵稅美國國內稅款。Mozilla 並未對此捐款提供任何服務或貨品作為回報。"}

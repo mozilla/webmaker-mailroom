@@ -1,15 +1,1 @@
-{
-  "stripe_charge_succeeded_2014_subject": "Your gift helps us build the Internet the world needs.",
-  "dear_name": "Dear {{ name }},",
-  "first_paragraph_email": "Thank you so much for your donation to Mozilla. With your gift, we'll continue our mission to build and protect an open web.",
-  "second_paragraph_email": "We believe the Internet is more than a technology; it's a public resource. It's a shared force for good.",
-  "third_paragraph_email": "Thanks again for all that you do to support Mozilla. Together, we will keep the Internet open, accessible, transparent and safe.",
-  "executive_director": "Executive Director",
-  "here_is_record": "HERE IS A TRANSACTION RECEIPT FOR YOUR RECORDS:",
-  "gift_amount": "Gift amount: {{ amount }}",
-  "transaction_id": "Transaction ID: {{ transaction_id }}",
-  "cancel_recurring_donation_email": "If you would like to cancel your recurring donation, send your request in an email to donate@mozilla.org.",
-  "mozilla_contribution": "Contributions go to the Mozilla Foundation, a 501(c)(3) organisation, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law. Mozilla did not provide any goods or services in return for this donation.",
-  "more_info_about_page": "For more information see the about page. (http://www.mozilla.org/about/)",
-  "mozilla_foundation_tax_id": "Mozilla Foundation Tax ID 20-0097189"
-}
+{"mozilla_foundation_tax_id":"Mozilla Foundation Tax ID 20-0097189","we_are_global_community":"We\u0027re a global community working to keep the Internet alive and accessible","we_are_not_here_for_low_risk":"We\u0027re not here for low-risk, low-reward scenarios. We\u0027re here to change the nature of the Internet.","here_is_record":"HERE IS A TRANSACTION RECEIPT FOR YOUR RECORDS:","transaction_id":"Transaction ID: %%transaction_id%%","more_info_about_page":"For more information see the about page. (http://www.mozilla.org/about/)","cancel_recurring_donation_email":"If you would like to cancel your recurring donation, send your request in an email to donate@mozilla.org.","third_paragraph_email":"Thanks again for all that you do to support Mozilla. Together, we will keep the Internet open, accessible, transparent and safe.","gift_amount":"Gift amount: %%amount_formatted%%","dear_name":"Dear %%firstname%%,","mozilla_foundation":"Mozilla Foundation","second_paragraph_email":"We believe the Internet is more than a technology; it\u0027s a public resource. It\u0027s a shared force for good.","mozilla_contribution":"Contributions go to the Mozilla Foundation, a 501(c)(3) organisation, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law. Mozilla did not provide any goods or services in return for this donation.","executive_director":"Executive Director","your_gift_help_us":"Your gift helps us build the Internet the world needs.","first_paragraph_email":"Thank you so much for your donation to Mozilla. With your gift, we\u0027ll continue our mission to build and protect an open web."}
