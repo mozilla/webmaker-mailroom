@@ -61,6 +61,7 @@ module.exports = function (options) {
       try {
         html = nunjucks.render(dir + '/' + template + '/index.html', data);
         subject = nunjucks.renderString(locals.gettext(metaData.subject), data);
+
         if (!partial) {
           header = baseHtml.header;
           footer = baseHtml.footer;
@@ -69,10 +70,14 @@ module.exports = function (options) {
           html = html.replace(/<body( .*?)?>/gi, '<div$1>');
           html = html.replace(/<\/(body)>/gi, '</div>');
         }
-        return {
+        let renderedData = {
           html: header + html  + footer,
           subject: subject
         };
+        if (metaData.recurringSubject) {
+            renderedData.recurringSubject = nunjucks.renderString(locals.gettext(metaData.recurringSubject), data);
+        }
+        return renderedData;
       } catch (err) {
         console.log(err);
       }
