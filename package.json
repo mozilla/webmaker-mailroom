@@ -14,17 +14,17 @@
   "license": "MPL 2.0",
   "dependencies": {
     "nunjucks": "1.0.5",
-    "webmaker-i18n": "0.3.27"
+    "webmaker-i18n": "^0.3.32"
   },
   "devDependencies": {
-    "express": "^4.4.1",
-    "mocha": "^1.20.1",
-    "gulp": "^3.8.7",
-    "fs-extra": "^0.11.1",
-    "gulp-webserver": "^0.7.2",
     "bulk-require": "^0.2.1",
+    "express": "^4.4.1",
+    "fs-extra": "^0.11.1",
+    "gulp": "^3.8.7",
     "gulp-mocha": "^1.1.0",
-    "should": "^4.0.4",
-    "inquirer": "^0.7.2"
+    "gulp-webserver": "^0.9.1",
+    "inquirer": "^0.7.2",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
   }
 }
