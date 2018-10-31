@@ -51,6 +51,7 @@ module.exports = function (options) {
       var subject;
       var locale = options.locale;
       var partial = options.partial;
+      var data;
       // This option is really only used for tests
       var dir = options.dir || 'templates';
       var metaData = require(__dirname + '/' + dir +'/' + template);
@@ -69,10 +70,14 @@ module.exports = function (options) {
           html = html.replace(/<body( .*?)?>/gi, '<div$1>');
           html = html.replace(/<\/(body)>/gi, '</div>');
         }
-        return {
+        data = {
           html: header + html  + footer,
           subject: subject
         };
+        if (metaData.recurringSubject) {
+          data.recurringSubject = metaData.recurringSubject
+        }
+        return data;
       } catch (err) {
         console.log(err);
       }
