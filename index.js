@@ -51,7 +51,6 @@ module.exports = function (options) {
       var subject;
       var locale = options.locale;
       var partial = options.partial;
-      var data;
       // This option is really only used for tests
       var dir = options.dir || 'templates';
       var metaData = require(__dirname + '/' + dir +'/' + template);
@@ -62,6 +61,7 @@ module.exports = function (options) {
       try {
         html = nunjucks.render(dir + '/' + template + '/index.html', data);
         subject = nunjucks.renderString(locals.gettext(metaData.subject), data);
+
         if (!partial) {
           header = baseHtml.header;
           footer = baseHtml.footer;
@@ -70,14 +70,14 @@ module.exports = function (options) {
           html = html.replace(/<body( .*?)?>/gi, '<div$1>');
           html = html.replace(/<\/(body)>/gi, '</div>');
         }
-        data = {
+        let renderedData = {
           html: header + html  + footer,
           subject: subject
         };
         if (metaData.recurringSubject) {
-          data.recurringSubject = metaData.recurringSubject
+            renderedData.recurringSubject = nunjucks.renderString(locals.gettext(metaData.recurringSubject), data);
         }
-        return data;
+        return renderedData;
       } catch (err) {
         console.log(err);
       }
