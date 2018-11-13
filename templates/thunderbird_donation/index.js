@@ -7,6 +7,7 @@ module.exports = {
 
   // Choose a subject for your email
   subject: 'Thank you for your gift to Mozilla Thunderbird',
+  recurringSubject: 'Thank you for your recurring gift to Mozilla Thunderbird',
 
   // Create a test case for every possible version of the email,
   // E.g. with a user name, without a username
